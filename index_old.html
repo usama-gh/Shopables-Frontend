@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>page-slider-js</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/mobile.css" />
+    <link rel="stylesheet" href="assets/css/tablet.css" />
+    <link rel="stylesheet" href="assets/css/laptop_small_screen.css" />
+    <link rel="stylesheet" href="assets/css/laptop_screen.css" />
+    <link rel="stylesheet" href="assets/css/4k_screen.css" />
+  </head>
+  <body>
+    <!-- <div class="wrapperBody"></div> -->
+    <div class="logo">
+      <img src="assets/images/logo.png" />
+    </div>
+    <div class="mdview slides">
+      <section id="french">
+        <img
+          class="img-responsive col-xs-12"
+          src="assets/images/secondpage-min.jpg"
+        />
+        <div class="pageWrapper">
+          <div class="circle text-white secondpage_circle"></div>
+          <div class="text-white secondpage_wrapper">
+            <h4>CONVERT</h4>
+            <h3>MORE</h3>
+            <h4>VISITORS INTO</h4>
+            <h3>REVENUE</h3>
+          </div>
+        </div>
+      </section>
+      <section id="norwegian">
+        <img
+          class="img-responsive col-xs-12"
+          src="assets/images/firstpage-min.jpg"
+        />
+        <div class="pageWrapper">
+          <div class="circle text-white firstpage_circle">
+            <h4>THE</h4>
+            <h3>WAY</h3>
+            <h4>THEY</h4>
+            <h3>SHOP!</h3>
+          </div>
+          <div class="text-white change_heading">
+            <h3 style="font-size: 10vw;">CHANGE</h3>
+          </div>
+        </div>
+      </section>
+      <section id="spanish">
+        <img
+          class="img-responsive col-xs-12 thirdpage_img"
+          src="assets/images/thirdpage-min.jpg"
+        />
+        <div class="pageWrapper">
+          <div class="circle text-white thirdpage_circle">
+            <div
+              style="border-radius: 360px; overflow: hidden; z-index: 999;color:purple;position: absolute; width: 100%; height: 100%;"
+            >
+              <h3
+                style="text-shadow: 0px 0px 3px purple;"
+                class="painless_text"
+              >
+                SEAMLESS
+              </h3>
+            </div>
+            <h3 class="painless_text">
+              SEAMLESS
+            </h3>
+          </div>
+          <div class="text-white thirdpage_wrapper">
+            <h3>INTEGRATION</h3>
+          </div>
+        </div>
+      </section>
+      <section id="hindi">
+        <img
+          class="img-responsive col-xs-12"
+          src="assets/images/forthpage-min.jpg"
+        />
+        <div class="pageWrapper">
+          <div class="circle text-white forthpage_circle"></div>
+          <div class="text-white forthpage_wrapper">
+            <h4>GET</h4>
+            <h3>MORE</h3>
+            <h3>IMPRESSIONS</h3>
+            <h4 style="text-align: left;">
+              AND
+            </h4>
+            <h3 class="forthpage_attention">
+              ATTENTION
+            </h3>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="mview slides">
+      <section>
+        <img
+          style="width: 120%;height: 100vh;"
+          class="mobile-first-img img-responsive col-xs-12"
+          src="assets/images/secondpage-min.jpg"
+        />
+        <div class="first_mobile_circle">
+          <h4>COVERT</h4>
+          <h3>MORE</h3>
+          <h4>VISITORS INTO</h4>
+          <h3>REVENUE</h3>
+        </div>
+      </section>
+      <section>
+        <img
+          style="width: 120%;height: 100vh;"
+          class="mobile-second-img img-responsive col-xs-12"
+          src="assets/images/firstpage-min.jpg"
+        />
+        <div class="second_mobile_circle">
+          <h3>CHANGE</h3>
+          <h4>THE &nbsp; &nbsp; THEY</h4>
+          <h3>WAY SHOP!</h3>
+        </div>
+      </section>
+      <section>
+        <img
+          style="width: 120%;height: 100vh;"
+          class="mobile-third-img img-responsive col-xs-12"
+          src="assets/images/thirdpage-min.jpg"
+        />
+        <div class="third_mobile_circle">
+          <h4>ONE</h4>
+          <h3>CLICK</h3>
+          <h3>INTEGRATION</h3>
+        </div>
+      </section>
+      <section>
+        <img
+          style="width: 120%;height: 100vh;"
+          class="mobile-forth-img img-responsive col-xs-12"
+          src="assets/images/forthpage-min.jpg"
+        />
+        <div class="forth_mobile_circle">
+          <h4>GET MORE</h4>
+          <h3>IMPRESSIONS</h3>
+          <h4>AND</h4>
+          <h3>ATTENTION</h3>
+        </div>
+      </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".slides").slick({
+          infinite: true,
+          arrows: false,
+          dots: true
+        });
+      });
+    </script>
+  </body>
+</html>

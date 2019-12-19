@@ -1,0 +1,56 @@
+@media (max-width: 800px) {
+  .mdview {
+    display: none !important;
+  }
+  .mview {
+    display: block !important;
+  }
+  .first_mobile_circle {
+    position: absolute;
+    width: 100vw;
+    background: #4f0eb9;
+    height: 60%;
+    z-index: 9999;
+    bottom: -139px;
+    border-radius: 360px 360px 0px 0px;
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+  }
+  .second_mobile_circle {
+    position: absolute;
+    width: 100vw;
+    background: #4f0eb9;
+    height: 60%;
+    z-index: 9999;
+    bottom: -139px;
+    border-radius: 360px 360px 0px 0px;
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+  }
+  .third_mobile_circle {
+    position: absolute;
+    width: 100vw;
+    background: #4f0eb9;
+    height: 60%;
+    z-index: 9999;
+    bottom: -139px;
+    border-radius: 360px 360px 0px 0px;
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+  }
+  .forth_mobile_circle {
+    position: absolute;
+    width: 100vw;
+    background: #4f0eb9;
+    height: 60%;
+    z-index: 9999;
+    bottom: -139px;
+    border-radius: 360px 360px 0px 0px;
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+  }
+}

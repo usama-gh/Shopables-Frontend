@@ -1,0 +1,281 @@
+@font-face {
+  font-family: futura;
+  src: url(../fonts/font-bt.ttf);
+}
+@font-face {
+  font-family: futura-bold;
+  src: url(../fonts/font.ttf);
+}
+@font-face {
+  font-family: futura-heavy;
+  src: url(../fonts/font-heavy.ttf);
+}
+html,
+body,
+div {
+  width: 100%;
+  height: 100%;
+  font-family: futura;
+}
+html,
+body {
+  background: #000;
+}
+.slick-slide > div {
+  position: relative;
+}
+section {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#first {
+  background: url("../images/backdrops/orange.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#first_model {
+  background: url("../images/models/model-first-page.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#first_circle {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  background: url("../images/circles/circle-first.png");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#second {
+  background: url("../images/backdrops/blue.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#second_model {
+  background: url("../images/models/model-second-page.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#second_circle {
+  position: absolute;
+  top: 0;
+  background: url("../images/circles/circle-second.png");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#third {
+  background: url("../images/backdrops/grey.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#third_model {
+  background: url("../images/models/model-third-page.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#third_circle {
+  position: absolute;
+  top: 0;
+  right: -60px;
+  background: url("../images/circles/circle-third.png");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#forth {
+  background: url("../images/backdrops/yellow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#forth_model {
+  background: url("../images/models/model-forth-page-copy.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#forth_circle {
+  position: absolute;
+  top: 0;
+  background: url("../images/circles/circle-forth.png");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.slick-dots {
+  right: 10px !important;
+  bottom: 10px !important;
+  float: right !important;
+  width: 150px !important;
+}
+.slick-dotted.slick-slider {
+  margin: 0 !important;
+}
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+.slick-dots li button::before {
+  font-size: 15px;
+  color: #fff;
+}
+.tag {
+  border: solid 1.4px #ffff;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  min-width: 130px;
+  max-width: 130px;
+  width: 10vw;
+  padding: 7px;
+  border-radius: 12px;
+}
+.price {
+  font-family: futura-heavy !important;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+.tag > button {
+  background: #fff;
+  font-weight: bolder;
+  border-radius: 5px;
+  color: #ed7013;
+  border: none;
+  font-family: futura-heavy !important;
+}
+
+.heading {
+  letter-spacing: 1px;
+}
+
+.red_tag {
+  color: #b1412a;
+  border: solid 2px #b1412a;
+}
+.red_tag > button {
+  background: #b1412a !important;
+  color: yellow;
+}
+
+/* pulse animation */
+.pulse-box {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* pulse in CSS */
+.pulse-white {
+  background: #e4e4e4 !important;
+}
+.pulse-white:before,
+.pulse-white:after {
+  background-color: #e4e4e4 !important;
+}
+.pulse-css {
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  background: #2e2e2e;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+  z-index: 1;
+}
+.pulse-css:before,
+.pulse-css:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  z-index: -1000000;
+  background-color: #2e2e2e;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  transform: scale(0.5);
+  transform-origin: center center;
+  animation: pulse-me 1.5s linear infinite;
+}
+.pulse-css:after {
+  animation-delay: 0.5s;
+}
+
+@keyframes pulse-me {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  70% {
+    opacity: 0.09;
+  }
+  100% {
+    transform: scale(6);
+    opacity: 0;
+  }
+}
+
+.first_page_tag {
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  z-index: 999;
+}
+nav ul {
+  margin-left: 10px;
+}
+nav li {
+  display: inline;
+  color: #ffffff;
+  margin: 10px 10px;
+  padding: 8px;
+  float: right;
+  border: solid 1px #fff;
+  border-radius: 360px;
+  font-family: futura;
+  letter-spacing: 1px;
+}
+nav > ul > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+nav > ul > li > a:hover {
+  color: #efefef;
+  text-decoration: none;
+}
+
+/* PRICING */
+.pricing {
+  background: url("../images/backdrops/purple.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

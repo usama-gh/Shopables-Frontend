@@ -1,0 +1,191 @@
+html,
+body {
+  overflow-y: hidden;
+  font-family: "Raleway", sans-serif;
+}
+.mview {
+  display: none;
+}
+.wrapperBody {
+  background: url(assets/images/page/Shopify_Frontend-1.jpg) no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  z-index: 9999;
+  opacity: 0.5;
+}
+section {
+  position: relative;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+}
+.slick-arrow {
+  width: 200px;
+  height: 200px;
+}
+.slick-dots {
+  bottom: unset !important;
+  top: 90vh;
+  text-align: right;
+  right: 5%;
+}
+.slick-dots li button:before {
+  font-size: 16px !important;
+  color: #fff;
+}
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  z-index: 100;
+  width: 100px;
+}
+.pageWrapper {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 99999;
+  overflow: hidden;
+}
+h4 {
+  font-size: 2vw;
+  font-weight: 900;
+  /* text-shadow: 3px 0px 3px #3d3d3d; */
+  margin: 0;
+  line-height: 0.5;
+}
+h3 {
+  font-size: 7vw;
+  font-weight: 900;
+  /* text-shadow: 3px 0px 3px #3d3d3d; */
+}
+.firstpage_circle {
+  width: 80vh;
+  height: 80vh;
+  border-radius: 360px;
+  background: rgb(210, 14, 84);
+  background: linear-gradient(
+    148deg,
+    rgba(210, 14, 84, 1) 0%,
+    rgba(140, 33, 118, 1) 100%
+  );
+  position: absolute;
+  right: -200px;
+  bottom: -30px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 150px;
+}
+
+.change_heading {
+  position: absolute;
+  right: 326px;
+  top: 200px;
+  z-index: -1;
+  font-size: 1vw;
+}
+
+.secondpage_circle {
+  width: 70vh;
+  height: 70vh;
+  border-radius: 360px;
+  background: rgb(204, 47, 147);
+  background: linear-gradient(
+    148deg,
+    rgb(187, 27, 129) 0%,
+    rgb(40, 68, 144) 100%
+  );
+  position: absolute;
+  right: -180px;
+  bottom: -30px;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 200px;
+}
+
+.secondpage_wrapper {
+  position: absolute;
+  right: 110px;
+  bottom: 70px;
+  font-size: 1.5em;
+  text-align: right;
+}
+
+.thirdpage_circle {
+  width: 60vh;
+  height: 60vh;
+  border-radius: 360px;
+  background: rgb(255, 211, 0);
+  background: linear-gradient(
+    148deg,
+    rgba(255, 211, 0, 1) 0%,
+    rgba(237, 120, 51, 1) 100%
+  );
+  position: absolute;
+  right: -100px;
+  bottom: -30px;
+  text-align: left;
+}
+
+.thirdpage_wrapper {
+  position: absolute;
+  right: 110px;
+  bottom: 70px;
+  font-size: 1.5em;
+  text-align: right;
+}
+/* #e4b8b9 */
+/* #3c638c */
+.forthpage_circle {
+  width: 70vh;
+  height: 70vh;
+  border-radius: 360px;
+  background: rgb(228, 184, 185);
+  background: linear-gradient(
+    148deg,
+    rgba(228, 184, 185, 1) 0%,
+    rgba(60, 99, 140, 1) 100%
+  );
+  position: absolute;
+  right: -100px;
+  bottom: -30px;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 200px;
+}
+
+.forthpage_wrapper {
+  position: absolute;
+  right: 110px;
+  bottom: 70px;
+  font-size: 1.5em;
+  text-align: right;
+}
+.forthpage_wrapper h4 {
+  font-size: 2em;
+}
+.forthpage_wrapper h3 {
+  font-size: 4em;
+}
+.forthpage_attention {
+  text-align: left;
+  position: relative;
+  left: -155px;
+  z-index: -1;
+}
+.thirdpage_img {
+  position: relative;
+  top: -200px;
+}
+.painless_text {
+  position: absolute;
+  right: 280px;
+  top: 190px;
+}

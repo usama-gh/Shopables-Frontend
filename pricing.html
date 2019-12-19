@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing | FAQs</title>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="assets/css/style.css" />
+<style>
+  .bubble_one{
+    background: url("assets/images/bubble_one.png");
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-size: contain;
+  }
+  .bubble_two{
+    background: url("assets/images/bubble_two.png");
+    background-position: 50% -10%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    height: 100%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+  .bubble_three{
+    background: url("assets/images/bubble_three.png");
+    background-position: 100% 110%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    height: 100%;
+    width: 30%;
+    right: 0;
+}
+.row{
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  font-size: 1vw;
+}
+.quote-btn{
+  background: none;
+  color: #fff;
+    border-radius: 360px;
+    margin: 0 auto;
+    display: table;
+    padding: 10px 40px;
+}
+</style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="demo">DEMO</a></li>
+        <li><a href="pricing.html">PRICING</a></li>
+        <li><a href="signup">SIGN UP</a></li>
+      </ul>
+    </nav>
+    <section>
+      <div class="pricing">
+        <span class="bubble_one">
+          <span data-top="0.4281767955801105" data-left="0.06597222222222222" class="row">
+            <span class="col-md-2" style="margin-top: auto; margin-bottom: auto;"><h4>LITE</h4></span>
+            <span class="col-md-6" style="padding: 0;">
+              <span>$17 / month</span>
+              <span><h5>7 DAY FREE TRIAL</h5></span>
+              <span><ul style="padding-left: 20px;">
+                <li>One Time installation</li>
+                <li>100,000 views/month</li>
+                <li>1 - website</li>
+                <li>3 - users</li>
+                <li>Unlimited Shoppables Images</li>
+                <li>Basic Analytics (clicks, views, ctr)</li>
+                <li>One page checkout</li>
+                <li>Shopify</li>
+              </ul></span>
+            </span>
+          </span>
+        </span>
+        <span class="bubble_two">
+          <span data-top="0.05509641873278237" data-left="0.06944444444444445" class="row">
+            <span class="col-md-2" style="margin-top: auto; margin-bottom: auto;"><h4>PRO</h4></span>
+            <span class="col-md-6" style="padding: 0;">
+              <span>$47 / month</span>
+              <span><h5>7 DAY FREE TRIAL</h5></span>
+              <span><ul style="padding-left: 20px;">
+                <li>One Time installation</li>
+                <li>100,000 views/month</li>
+                <li>1 - website</li>
+                <li>3 - users</li>
+                <li>Unlimited Shoppables Images</li>
+                <li>Basic Analytics (clicks, views, ctr)</li>
+                <li>One page checkout</li>
+                <li>Shopify</li>
+                <li>Customization</li>
+                <li>No watermark</li>
+                <li>48 hours support</li>
+                <li>UTM parameters</li>
+              </ul></span>
+            </span>
+          </span>
+        </span>
+        <span class="bubble_three">
+          <span data-top="0.6749311294765841" data-left="0.10416666666666667"  class="row">
+            <span style="margin-top: auto; margin-bottom: auto;"><h1>ENTERPRISE</h1><button class="btn-block quote-btn">GET QUOTE</button></span>
+            
+          </span>
+        </span>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+      $('.row').each((k, v) => {
+        var top = v.getAttribute("data-top");
+        var left = v.getAttribute("data-left");
+        var topPos = top * window.innerHeight;
+        var leftPos = left * window.innerWidth;
+        v.style.cssText = "top: " + topPos + "px; left: " + leftPos + "px;";
+      });
+    </script>
+  </body>
+</html>

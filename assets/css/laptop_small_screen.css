@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+  .firstpage_circle,
+  .secondpage_circle,
+  .thirdpage_circle,
+  .forthpage_circle {
+    width: 70vh !important;
+    height: 70vh !important;
+  }
+  .change_heading {
+    right: 19vw !important;
+    top: 32vh !important;
+  }
+  .firstpage_circle h3 {
+    font-size: 5vw !important;
+  }
+  .firstpage_circle {
+    padding-left: 40px !important;
+    padding-top: 140px !important;
+  }
+  .forthpage_wrapper h3 {
+    font-size: 3em !important;
+  }
+  .forthpage_wrapper {
+    right: 110px !important;
+    bottom: 10px !important;
+  }
+  .forthpage_attention {
+    left: -100px !important;
+  }
+  .secondpage_wrapper {
+    right: 70px !important;
+  }
+  .thirdpage_img {
+    top: -60px !important;
+  }
+}
+@media (min-width: 800px) {
+  .secondpage_wrapper {
+    bottom: 100px !important;
+    right: 40px !important;
+  }
+}
+@media (min-width: 1000px) {
+  .secondpage_wrapper {
+    bottom: 100px !important;
+    right: 70px !important;
+  }
+}

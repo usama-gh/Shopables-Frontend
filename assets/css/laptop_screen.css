@@ -1,0 +1,30 @@
+@media (min-width: 1300px) {
+  .firstpage_circle,
+  .secondpage_circle,
+  .thirdpage_circle,
+  .forthpage_circle {
+    width: 80vh !important;
+    height: 80vh !important;
+  }
+  .change_heading {
+    right: 23vw !important;
+    top: 32vh !important;
+  }
+  .firstpage_circle h3 {
+    font-size: 4vw !important;
+  }
+  .firstpage_circle {
+    padding-left: 50px !important;
+    padding-top: 160px !important;
+  }
+  .forthpage_wrapper h3 {
+    font-size: 3em !important;
+  }
+  .forthpage_attention {
+    left: -205px !important;
+  }
+  /* extra */
+  .secondpage_wrapper {
+    right: 60px !important;
+  }
+}

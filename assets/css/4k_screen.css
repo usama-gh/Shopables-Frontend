@@ -1,0 +1,26 @@
+@media (min-width: 2300px) {
+  .firstpage_circle,
+  .secondpage_circle,
+  .thirdpage_circle,
+  .forthpage_circle {
+    width: 686px !important;
+    height: 686px !important;
+  }
+  .change_heading {
+    right: 13vw !important;
+    top: 32vh !important;
+  }
+  .firstpage_circle h3 {
+    font-size: 4vw !important;
+  }
+  .firstpage_circle {
+    padding-left: 80px !important;
+    padding-top: 190px !important;
+  }
+  .forthpage_wrapper h3 {
+    font-size: 5em !important;
+  }
+  .forthpage_attention {
+    left: -285px !important;
+  }
+}
