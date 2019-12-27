@@ -18,8 +18,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/tablet.css" />
   </head>
   <body>
+    <div class="shopable_logo">
+      <img width="70px" src="assets/images/logo.png" alt="" />
+    </div>
     <nav>
       <ul>
         <li><a href="demo">DEMO</a></li>
@@ -83,6 +87,7 @@
           </span>
         </div>
         <div id="first_circle"></div>
+        <div id="first_mobile_circle"></div>
       </section>
       <section id="second">
         <div id="second_model">
@@ -152,6 +157,7 @@
           </span>
         </div>
         <div id="second_circle"></div>
+        <div id="second_mobile_circle"></div>
       </section>
       <section id="third">
         <div id="third_model">
@@ -221,6 +227,7 @@
           </span>
         </div>
         <div id="third_circle"></div>
+        <div id="third_mobile_circle"></div>
       </section>
       <section id="forth">
         <div id="forth_model">
@@ -274,6 +281,7 @@
           </span>
         </div>
         <div id="forth_circle"></div>
+        <div id="forth_mobile_circle"></div>
       </section>
     </div>
 
@@ -298,36 +306,6 @@
       };
 
       function webInit() {
-        $("#first_circle").animate(
-          {
-            left: "0px",
-            opacity: 1
-          },
-          500
-        );
-        $(".first_page_tag").animate(
-          {
-            opacity: 1
-          },
-          200
-        );
-      }
-
-      $(".tag").each((k, v) => {
-        var top = v.getAttribute("data-top");
-        var left = v.getAttribute("data-left");
-        var topPos = top * window.innerHeight;
-        var leftPos = left * window.innerWidth;
-        v.style.cssText = "top: " + topPos + "px; left: " + leftPos + "px;";
-      });
-      $(".pulse-box").each((k, v) => {
-        var top = v.getAttribute("data-top");
-        var left = v.getAttribute("data-left");
-        var topPos = top * window.innerHeight;
-        var leftPos = left * window.innerWidth;
-        v.style.cssText = "top: " + topPos + "px; left: " + leftPos + "px;";
-      });
-      window.onresize = function() {
         $(".tag").each((k, v) => {
           var top = v.getAttribute("data-top");
           var left = v.getAttribute("data-left");
@@ -342,6 +320,12 @@
           var leftPos = left * window.innerWidth;
           v.style.cssText = "top: " + topPos + "px; left: " + leftPos + "px;";
         });
+        $(".tag").css("opacity", 1);
+        $(".pulse-box").css("opacity", 1);
+      }
+
+      window.onresize = function() {
+        webInit();
       };
     </script>
   </body>

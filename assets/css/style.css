@@ -21,8 +21,20 @@ html,
 body {
   background: #000;
 }
+.shopable_logo {
+  position: absolute;
+  z-index: 100;
+  top: 10px;
+  left: 30px;
+  width: 100px;
+  height: 100px;
+}
 .slick-slide > div {
   position: relative;
+}
+.tag,
+.pulse-box {
+  opacity: 0;
 }
 section {
   position: absolute;
@@ -30,13 +42,13 @@ section {
   height: 100%;
 }
 #first {
-  background: url("../images/backdrops/orange.png");
+  background: url("../images/backdrops/min/orange.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #first_model {
-  background: url("../images/models/model-first-page.png");
+  background: url("../images/models/min/model-first-page.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,22 +56,22 @@ section {
 #first_circle {
   position: absolute;
   top: 0;
-  left: 200px;
-  opacity: 0;
+  /* left: 200px;
+  opacity: 0; */
   transition: opacity 0.5s;
-  background: url("../images/circles/circle-first.png");
+  background: url("../images/circles/min/circle-first.png");
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: contain;
 }
 #second {
-  background: url("../images/backdrops/blue.png");
+  background: url("../images/backdrops/min/blue.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #second_model {
-  background: url("../images/models/model-second-page.png");
+  background: url("../images/models/min/model-second-page.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,19 +79,19 @@ section {
 #second_circle {
   position: absolute;
   top: 0;
-  background: url("../images/circles/circle-second.png");
+  background: url("../images/circles/min/circle-second.png");
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: contain;
 }
 #third {
-  background: url("../images/backdrops/grey.png");
+  background: url("../images/backdrops/min/grey.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #third_model {
-  background: url("../images/models/model-third-page.png");
+  background: url("../images/models/min/model-third-page.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,19 +100,19 @@ section {
   position: absolute;
   top: 0;
   right: -60px;
-  background: url("../images/circles/circle-third.png");
+  background: url("../images/circles/min/circle-third.png");
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: contain;
 }
 #forth {
-  background: url("../images/backdrops/yellow.png");
+  background: url("../images/backdrops/min/yellow.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #forth_model {
-  background: url("../images/models/model-forth-page-copy.png");
+  background: url("../images/models/min/model-forth-page-copy.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,7 +120,7 @@ section {
 #forth_circle {
   position: absolute;
   top: 0;
-  background: url("../images/circles/circle-forth.png");
+  background: url("../images/circles/min/circle-forth.png");
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -239,14 +251,15 @@ section {
 }
 
 .first_page_tag {
-  opacity: 0;
+  /* opacity: 0; */
   transition: opacity 0s;
 }
 
 nav {
   position: absolute;
   width: 100%;
-  top: 20px;
+  top: 30px;
+  right: 30px;
   z-index: 999;
 }
 nav ul {
@@ -260,12 +273,13 @@ nav li {
   float: right;
   border: solid 1px #fff;
   border-radius: 360px;
-  font-family: futura;
-  letter-spacing: 1px;
+  font-family: futura-heavy;
+  letter-spacing: 2px;
 }
 nav > ul > li > a {
   color: #fff;
   text-decoration: none;
+  font-size: 12px;
 }
 nav > ul > li > a:hover {
   color: #efefef;
@@ -274,7 +288,7 @@ nav > ul > li > a:hover {
 
 /* PRICING */
 .pricing {
-  background: url("../images/backdrops/purple.png");
+  background: url("../images/backdrops/min/purple.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,114 +1,142 @@
 @media (max-width: 768px) {
-  .first_mobile_circle {
-    background: rgb(204, 47, 147);
-    background: linear-gradient(
-      148deg,
-      rgb(187, 27, 129) 0%,
-      rgb(40, 68, 144) 100%
-    );
-  }
-  .second_mobile_circle {
-    background: rgb(210, 14, 84);
-    background: linear-gradient(
-      148deg,
-      rgba(210, 14, 84, 1) 0%,
-      rgba(140, 33, 118, 1) 100%
-    );
-  }
-  .third_mobile_circle {
-    background: rgb(255, 211, 0);
-    background: linear-gradient(
-      148deg,
-      rgba(255, 211, 0, 1) 0%,
-      rgba(237, 120, 51, 1) 100%
-    );
-  }
-  .forth_mobile_circle {
-    background: rgb(228, 184, 185);
-    background: linear-gradient(
-      148deg,
-      rgba(228, 184, 185, 1) 0%,
-      rgba(60, 99, 140, 1) 100%
-    );
-  }
 }
-
 @media (max-width: 425px) {
-  h4 {
-    font-size: 1em !important;
+  .shopable_logo {
+    left: 20px !important;
+    top: 20px !important;
+    width: 75px !important;
+    height: 75px !important;
   }
-  h3 {
-    font-size: 2em !important;
-    margin: 0 !important;
+  .shopable_logo img {
+    width: 75px !important;
   }
-  .mobile-first-img {
-    width: 200% !important;
-    position: relative !important;
-    left: -90px !important;
+  #second_circle {
+    display: none !important;
   }
-  .mobile-second-img {
-    width: 200% !important;
-    position: relative !important;
-    left: -90px !important;
+  #third_circle {
+    display: none !important;
   }
-  .mobile-third-img {
-    width: 190% !important;
-    position: relative !important;
-    left: -230px !important;
+  #forth_circle {
+    display: none !important;
   }
-  .mobile-forth-img {
-    width: 190% !important;
-    height: 100vh !important;
-    position: relative !important;
-    left: -10px !important;
+  #first_circle {
+    display: none !important;
   }
-  .first_mobile_circle,
-  .second_mobile_circle,
-  .third_mobile_circle,
-  .forth_mobile_circle {
-    bottom: -200px !important;
+  #first_mobile_circle {
+    position: absolute;
+    top: 360px;
+    background: url("../images/circles/circle-full-first.png");
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 130vw;
+    z-index: 99999999;
+  }
+  #second_mobile_circle {
+    position: absolute;
+    top: 360px;
+    background: url("../images/circles/circle-full-second.png");
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 130vw;
+    z-index: 99999999;
+  }
+  #third_mobile_circle {
+    position: absolute;
+    top: 360px;
+    background: url("../images/circles/circle-full-third.png");
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 130vw;
+    z-index: 99999999;
+  }
+  #forth_mobile_circle {
+    position: absolute;
+    top: 360px;
+    background: url("../images/circles/circle-full-forth.png");
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 130vw;
+    z-index: 99999999;
+  }
+  #first_mobile_circle {
+    top: 300px;
+  }
+  #second_mobile_circle {
+    top: 300px;
+  }
+  #third_mobile_circle {
+    top: 300px;
+  }
+  #forth_mobile_circle {
+    top: 300px;
+  }
+  .pulse-box,
+  .tag {
+    display: none !important;
+  }
+  #first_model {
+    background-position: 27% 0% !important;
+  }
+  #second_model {
+    background-position: -90px -90px !important;
+  }
+  #third_model {
+    background-position: 15% -80px !important;
+  }
+  #forth_model {
+    background-position: 63% 0% !important;
   }
 }
 
 @media (max-width: 375px) {
-  .mobile-first-img {
-    width: 230% !important;
-    position: relative !important;
-    left: -110px !important;
+  .shopable_logo {
+    display: none !important;
   }
-  .mobile-second-img {
-    width: 240% !important;
-    position: relative !important;
-    left: -70px !important;
+  #first_mobile_circle {
+    top: 260px;
   }
-  .mobile-forth-img {
-    width: 220% !important;
-    height: 100vh !important;
-    position: relative !important;
-    left: -10px !important;
+  #second_mobile_circle {
+    top: 260px;
+  }
+  #third_mobile_circle {
+    top: 260px;
+  }
+  #forth_mobile_circle {
+    top: 260px;
+  }
+  .pulse-box,
+  .tag {
+    display: none !important;
   }
 }
 
 @media (max-width: 320px) {
-  .mobile-first-img {
-    width: 260% !important;
-    position: relative !important;
-    left: -130px !important;
+  #first_mobile_circle {
+    top: 220px;
   }
-  .mobile-second-img {
-    width: 280% !important;
-    position: relative !important;
-    left: -95px !important;
+  #second_mobile_circle {
+    top: 220px;
   }
-  .mobile-third-img {
-    width: 220% !important;
-    position: relative !important;
-    left: -240px !important;
+  #third_mobile_circle {
+    top: 220px;
   }
-  .mobile-forth-img {
-    width: 250% !important;
-    height: 100vh !important;
-    position: relative !important;
-    left: -30px !important;
+  #forth_mobile_circle {
+    top: 220px;
+  }
+  .pulse-box,
+  .tag {
+    display: none !important;
+  }
+  nav {
+    top: 0px !important;
+    right: 0px !important;
+  }
+  nav ul {
+    display: table !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+  nav li {
+    padding: 5px !important;
   }
 }
