@@ -2,132 +2,340 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pricing | FAQs</title>
+  <title>About | Shopables</title>
   <link
     rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
   />
   <link rel="stylesheet" href="assets/css/style.css" />
-<style>
-  .bubble_one{
-    background: url("assets/images/bubble_one.png");
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 30%;
-    height: 100%;
-    background-size: contain;
-  }
-  .bubble_two{
-    background: url("assets/images/bubble_two.png");
-    background-position: 50% -10%;
-    background-repeat: no-repeat;
-    position: absolute;
-    background-size: contain;
-    height: 100%;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-  }
-  .bubble_three{
-    background: url("assets/images/bubble_three.png");
-    background-position: 100% 110%;
-    background-repeat: no-repeat;
-    position: absolute;
-    background-size: contain;
-    height: 100%;
-    width: 30%;
-    right: 0;
+    <style>
+        .faqs{
+            background: url("assets/images/backdrops/min/glasses.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .faqs_circle{
+            background: url("assets/images/circles/min/circle-about.png");
+            background-position: 100% 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        section {
+          position: relative !important;
+        }
+        .btn{
+            position: relative;
+            bottom: -120px;
+        }
+        .bronze {
+  background-color: #B0C4DE;
 }
-.row{
-  position: absolute;
+
+.bronze-text {
+  color: #B0C4DE;
+}
+
+.silver {
   color: #fff;
-  width: 100%;
-  font-size: 1vw;
-}
-.quote-btn{
-  background: none;
+  background-color: #C0C0C0;
+ }
+
+.gold {
   color: #fff;
-    border-radius: 360px;
-    margin: 0 auto;
-    display: table;
-    padding: 10px 40px;
+  background-color: #FFD700;
+ }
+
+.gold-text {
+    color:#FFD700;
 }
-</style>
+.plan{
+    max-height: 580px;
+}
+.content .plan {
+    position:relative;
+    top:30px;
+    background:rgba(255,255,255,1);
+    padding-top:40px;
+    padding-bottom:40px;
+    border-radius:7px;
+    color:#777;
+    box-shadow:5px 5px 0 rgba(0,0,0,0.05);
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.content .plan.featured {
+    top:0;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.content .plan:hover,
+.content .plan.featured {
+    background:#5CC9DF;
+    color:#fff;
+}
+
+.content .plan h2 {
+    font-size:28px;
+    font-weight:700;
+    margin-bottom:0;
+    text-transform:uppercase;
+}
+
+.content .plan.featured h2 {
+    margin-bottom:10px;
+}
+
+.content .plan p {
+    margin-bottom:5px;
+    font-weight:400;
+}
+
+.content .plan .icon {
+    display:inline-block;
+    margin-bottom:30px;
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    font-size:48px;
+    line-height:120px;
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.content .plan.featured .icon,
+.content .plan:hover .icon{
+    color:#5cc9df;
+    background:#fff;
+}
+
+.content .plan .btn-pricing {
+    margin-top:20px;
+    margin-bottom:0;
+    font-size:16px;
+    padding:10px 20px;
+}
+
+.content .plan.featured .btn-pricing,
+.content .plan:hover .btn-pricing {
+    background: #fff;
+    color:#5CC9DF;
+}
+
+.content .plan .price {
+    font-size:48px;
+    font-weight:100;
+    line-height:48px;
+    margin-bottom:30px;
+}
+
+.content .plan.featured .price {
+    margin-bottom:40px;
+}
+    </style>
   </head>
   <body>
-    <nav>
+    <nav style="    margin-top: -20px;">
       <ul>
         <li><a href="demo">DEMO</a></li>
         <li><a href="pricing.html">PRICING</a></li>
         <li><a href="signup">SIGN UP</a></li>
       </ul>
     </nav>
-    <section>
-      <div class="pricing">
-        <span class="bubble_one">
-          <span data-top="0.4281767955801105" data-left="0.06597222222222222" class="row">
-            <span class="col-md-2" style="margin-top: auto; margin-bottom: auto;"><h4>LITE</h4></span>
-            <span class="col-md-6" style="padding: 0;">
-              <span>$17 / month</span>
-              <span><h5>7 DAY FREE TRIAL</h5></span>
-              <span><ul style="padding-left: 20px;">
-                <li>One Time installation</li>
-                <li>100,000 views/month</li>
-                <li>1 - website</li>
-                <li>3 - users</li>
-                <li>Unlimited Shoppables Images</li>
-                <li>Basic Analytics (clicks, views, ctr)</li>
-                <li>One page checkout</li>
-                <li>Shopify</li>
-              </ul></span>
-            </span>
-          </span>
-        </span>
-        <span class="bubble_two">
-          <span data-top="0.05509641873278237" data-left="0.06944444444444445" class="row">
-            <span class="col-md-2" style="margin-top: auto; margin-bottom: auto;"><h4>PRO</h4></span>
-            <span class="col-md-6" style="padding: 0;">
-              <span>$47 / month</span>
-              <span><h5>7 DAY FREE TRIAL</h5></span>
-              <span><ul style="padding-left: 20px;">
-                <li>One Time installation</li>
-                <li>100,000 views/month</li>
-                <li>1 - website</li>
-                <li>3 - users</li>
-                <li>Unlimited Shoppables Images</li>
-                <li>Basic Analytics (clicks, views, ctr)</li>
-                <li>One page checkout</li>
-                <li>Shopify</li>
-                <li>Customization</li>
-                <li>No watermark</li>
-                <li>48 hours support</li>
-                <li>UTM parameters</li>
-              </ul></span>
-            </span>
-          </span>
-        </span>
-        <span class="bubble_three">
-          <span data-top="0.6749311294765841" data-left="0.10416666666666667"  class="row">
-            <span style="margin-top: auto; margin-bottom: auto;"><h1>ENTERPRISE</h1><button class="btn-block quote-btn">GET QUOTE</button></span>
-            
-          </span>
-        </span>
-      </div>
-    </section>
+    <section class="pricing">
+        <div class="container-fluid bootstrap snippet">
+            <div class="row content" style="justify-content: center;">
+                <div class="col-lg-10 col-lg-offset-1 mt-5 pt-3">
+                    <div style="float: left;" class="col-sm-4 text-center">
+                        <div class="plan">
 
+                            <h2 class="bronze-text">Bronce</h2>
+                            <p class="bronze-text price">$12</p>
+                            <p>30,000 views per month</p>
+                            <p>1 Website</p>
+                            <p>Statistics</p>
+                            <p>Shopify Integration</p>
+                            <a class="btn btn-primary btn-pricing" href="#" target="_blank">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div style="float: left;" class="col-sm-4 text-center">
+                        <div class="plan featured">
+
+                            <h2>Silver</h2>
+                            <p class="price">$24</p>
+                            <p>150,000 views per month</p>
+                            <p>3 Website</p>
+                            <p>Statistics</p>
+                            <p>Shopify Integration</p>
+                            <p>Google Analytics Integration</p>
+                            <p>Facebook Pixel Integration</p>
+                            <p>UTM Parameters</p>
+                            <p>Customizations</p>
+                            <a style="    bottom: 0px;" class="btn btn-primary btn-pricing" href="#" target="_blank">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div style="float: left;" class="col-sm-4 text-center">
+                        <div class="plan">
+
+                            <h2 class="gold-text">Gold</h2>
+                            <p class="gold-text price">$399</p>
+                            <p>1 Million views per month</p>
+                            <p>10 Website</p>
+                            <p>Statistics</p>
+                            <p>Shopify Integration</p>
+                            <p>Google Analytics Integration</p>
+                            <p>Facebook Pixel Integration</p>
+                            <p>UTM Parameters</p>
+                            <p>Customizations</p>
+                            <a style="    bottom: 0px;" class="btn btn-primary btn-pricing" href="#" target="_blank">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- <section>
+      <footer class="footer">
+        <svg viewBox="0 0 120 28">
+          <defs>
+            <mask id="xxx">
+              <circle cx="7" cy="12" r="40" fill="#fff" />
+            </mask>
+
+            <filter id="goo">
+               <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+               <feColorMatrix in="blur" mode="matrix" values="
+                    1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 13 -9" result="goo" />
+               <feBlend in="SourceGraphic" in2="goo" />
+             </filter>
+              <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+           </defs>
+
+            <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use>
+            <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+
+           <g class="gooeff">
+
+             <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+
+
+
+         </svg>
+
+        <div class="container bottom_border">
+          <div class="row">
+            <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+              <img width="70px" src="assets/images/logo.png" alt="" />
+              <h5 class="headin5_amrc col_white_amrc">Shopables Inc.</h5>
+
+              <p class="mb10">
+                Shopables is a marketing tool that lets you create seamless
+                shopping experience through shoppable tags and micro popups for
+                your ecommerce store.
+              </p>
+              <p>
+                <i class="fa fa-location-arrow"></i> 10 Street, Menlo Park, CA
+              </p>
+              <p><i class="fa fa-phone"></i> 232-323-322</p>
+              <p><i class="fa fa fa-envelope"></i> hello@shopables.co</p>
+            </div>
+
+            <div class=" col-sm-4 col-md  col-6 col">
+              <h5 class="headin5_amrc col_white_amrc pt2">Features</h5>
+
+              <ul class="footer_ul_amrc">
+                <li><a href="http://webenlance.com">One time installation</a></li>
+                <li><a href="http://webenlance.com">On-Page Editor</a></li>
+                <li><a href="http://webenlance.com">In-depth Analytics</a></li>
+                <li><a href="http://webenlance.com">Micro Optins</a></li>
+                <li><a href="http://webenlance.com">Customization</a></li>
+              </ul>
+
+            </div>
+
+            <div class=" col-sm-4 col-md  col-6 col">
+              <h5 class="headin5_amrc col_white_amrc pt2">Resources</h5>
+
+              <ul class="footer_ul_amrc">
+                <li><a href="blog">Blog</a></li>
+                <li>
+                  <a href="faqs">FAQs</a>
+                </li>
+                <li><a href="privacy-policy">Privacy Policy</a></li>
+                <li><a href="terms">Terms of Use</a></li>
+                <li><a href="gdpr-policy">GDPR</a></li>
+              </ul>
+
+            </div>
+
+            <div class=" col-sm-4 col-md  col-12 col">
+              <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+
+
+              <ul class="footer_ul2_amrc">
+                <li>
+                  <a href="#"
+                    ><i class="fab fa-twitter fleft padding-right"></i>
+                  </a>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing...<a href="#"
+                      >https://www.lipsum.com/</a
+                    >
+                  </p>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fab fa-twitter fleft padding-right"></i>
+                  </a>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing...<a href="#"
+                      >https://www.lipsum.com/</a
+                    >
+                  </p>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fab fa-twitter fleft padding-right"></i>
+                  </a>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing...<a href="#"
+                      >https://www.lipsum.com/</a
+                    >
+                  </p>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container" style="margin-bottom: 200px;">
+          <ul class="foote_bottom_ul_amrc">
+            <li><a href="#">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="pricing">Pricing</a></li>
+            <li><a href="blog">Blog</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="privacy-policy">Privacy Policy</a></li>
+            <li><a href="terms">Terms</a></li>
+          </ul>
+
+          <p class="text-center">Copyright @2020 | Shopables</p>
+
+
+        </div>
+      </footer>
+    </section> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script>
-      $('.row').each((k, v) => {
-        var top = v.getAttribute("data-top");
-        var left = v.getAttribute("data-left");
-        var topPos = top * window.innerHeight;
-        var leftPos = left * window.innerWidth;
-        v.style.cssText = "top: " + topPos + "px; left: " + leftPos + "px;";
-      });
-    </script>
+
   </body>
 </html>

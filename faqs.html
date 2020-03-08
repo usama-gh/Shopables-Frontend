@@ -21,6 +21,9 @@
             background-repeat: no-repeat;
             background-size: contain;
         }
+        section{
+          position: relative !important;
+        }
     </style>
   </head>
   <body>
@@ -35,6 +38,141 @@
       <div class="faqs">
         <div class="faqs_circle"></div>
     </div>
+    </section>
+    <section>
+      <footer class="footer">
+        <svg viewBox="0 0 120 28">
+          <defs>
+            <mask id="xxx">
+              <circle cx="7" cy="12" r="40" fill="#fff" />
+            </mask>
+
+            <filter id="goo">
+               <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+               <feColorMatrix in="blur" mode="matrix" values="
+                    1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 13 -9" result="goo" />
+               <feBlend in="SourceGraphic" in2="goo" />
+             </filter>
+              <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+           </defs>
+
+            <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use>
+            <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+
+           <g class="gooeff">
+
+             <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+
+
+
+         </svg>
+
+        <div class="container bottom_border">
+          <div class="row">
+            <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+              <img width="70px" src="assets/images/logo.png" alt="" />
+              <h5 class="headin5_amrc col_white_amrc">Shopables Inc.</h5>
+
+              <p class="mb10">
+                Shopables is a marketing tool that lets you create seamless
+                shopping experience through shoppable tags and micro popups for
+                your ecommerce store.
+              </p>
+              <p>
+                <i class="fa fa-location-arrow"></i> 10 Street, Menlo Park, CA
+              </p>
+              <p><i class="fa fa-phone"></i> 232-323-322</p>
+              <p><i class="fa fa fa-envelope"></i> hello@shopables.co</p>
+            </div>
+
+            <div class=" col-sm-4 col-md  col-6 col">
+              <h5 class="headin5_amrc col_white_amrc pt2">Features</h5>
+
+              <ul class="footer_ul_amrc">
+                <li><a href="http://webenlance.com">One time installation</a></li>
+                <li><a href="http://webenlance.com">On-Page Editor</a></li>
+                <li><a href="http://webenlance.com">In-depth Analytics</a></li>
+                <li><a href="http://webenlance.com">Micro Optins</a></li>
+                <li><a href="http://webenlance.com">Customization</a></li>
+              </ul>
+
+            </div>
+
+            <div class=" col-sm-4 col-md  col-6 col">
+              <h5 class="headin5_amrc col_white_amrc pt2">Resources</h5>
+
+              <ul class="footer_ul_amrc">
+                <li><a href="blog">Blog</a></li>
+                <li>
+                  <a href="faqs">FAQs</a>
+                </li>
+                <li><a href="privacy-policy">Privacy Policy</a></li>
+                <li><a href="terms">Terms of Use</a></li>
+                <li><a href="gdpr-policy">GDPR</a></li>
+              </ul>
+
+            </div>
+
+            <div class=" col-sm-4 col-md  col-12 col">
+              <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+
+
+              <ul class="footer_ul2_amrc">
+                <li>
+                  <a href="#"
+                    ><i class="fab fa-twitter fleft padding-right"></i>
+                  </a>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing...<a href="#"
+                      >https://www.lipsum.com/</a
+                    >
+                  </p>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fab fa-twitter fleft padding-right"></i>
+                  </a>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing...<a href="#"
+                      >https://www.lipsum.com/</a
+                    >
+                  </p>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fab fa-twitter fleft padding-right"></i>
+                  </a>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing...<a href="#"
+                      >https://www.lipsum.com/</a
+                    >
+                  </p>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container" style="margin-bottom: 200px;">
+          <ul class="foote_bottom_ul_amrc">
+            <li><a href="#">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="pricing">Pricing</a></li>
+            <li><a href="blog">Blog</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="privacy-policy">Privacy Policy</a></li>
+            <li><a href="terms">Terms</a></li>
+          </ul>
+
+          <p class="text-center">Copyright @2020 | Shopables</p>
+
+
+        </div>
+      </footer>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
