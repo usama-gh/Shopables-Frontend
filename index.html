@@ -181,7 +181,7 @@
             data-id="8"
             data-top="0.31767955801104975"
             data-left="0.2569444444444444"
-            class="pulse-box "
+            class="pulse-box"
           >
             <div class="pulse-css pulse-white"></div>
           </div>
@@ -451,20 +451,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+      function getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+      }
+      if (getRandomInt(2) === 0) {
+        window.location.replace("https://shopables.co/landing");
+      }
+    </script>
     <script type="text/javascript">
-      $(document).ready(function() {
+      $(document).ready(function () {
         $(".slides").slick({
           infinite: false,
           arrows: false,
-          dots: true
+          dots: true,
         });
       });
 
-      $(".slides").on("swipe", function(event, slick, direction) {
+      $(".slides").on("swipe", function (event, slick, direction) {
         var currentSlide = $(".slides").slick("slickCurrentSlide");
       });
 
-      window.onload = function() {
+      window.onload = function () {
         webInit();
       };
 
@@ -487,11 +495,11 @@
         $(".pulse-box").css("opacity", 1);
       }
 
-      window.onresize = function() {
+      window.onresize = function () {
         webInit();
       };
 
-      $(".pulse-box").on("mouseenter", function(e) {
+      $(".pulse-box").on("mouseenter", function (e) {
         const id = e.target.parentNode.getAttribute("data-id");
         $(".tag").css("display", "none");
         $('[data-tag="' + id + '"]').css("display", "flex");
