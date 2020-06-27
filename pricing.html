@@ -55,7 +55,7 @@
 .content .plan {
     position:relative;
     top:30px;
-    background: transparent;
+    background: #ffffffd1;
     border: solid 2px #ffff;
     padding-top:40px;
     padding-bottom:40px;
@@ -70,28 +70,34 @@
     top:0;
     padding-top:50px;
     padding-bottom:50px;
+    background-color: #ffffffd1;
 }
 
-.content .plan:hover,
-.content .plan.featured {
-    background: rgba(255, 255, 255, 0.16);
-    color:#fff;
+.content .plan:hover{
+  background-color: #fff;
 }
+/*.content .plan.featured {
+    color:#fff; 
+}*/
 
 .content .plan h2 {
-    font-size:28px;
+    font-size:18px;
+    margin-bottom: 10px;
     font-weight:700;
     margin-bottom:0;
+    color: #7116f1;
     text-transform:uppercase;
 }
 
 .content .plan.featured h2 {
     margin-bottom:10px;
+    color: #7116f1;
 }
 
 .content .plan p {
     margin-bottom:5px;
     font-weight:400;
+    color: black;
 }
 
 .content .plan .icon {
@@ -117,27 +123,40 @@
     margin-bottom:0;
     font-size:16px;
     padding:10px 20px;
+    border: 1px solid #7116f1;
+    border-radius: 40px;
+    background: #7116f1;
 }
-
+.content .plan .btn-pricing:hover{
+  background-color: #7c58af;
+}
 
 .content .plan .price {
     font-size:48px;
     font-weight:100;
-    line-height:48px;
+    color: black;
+    height: 60px;
+    /*margin-bottom:30px;*/
+}
+.content .plan .yearly {
+    font-size: 13px;
+    font-weight:700;
+    color: black;
     margin-bottom:30px;
 }
 
+
 .content .plan.featured .price {
-    margin-bottom:40px;
+    /*margin-bottom:40px;*/
 }
     </style>
   </head>
   <body>
     <nav style="    margin-top: -20px;">
       <ul>
-        <li><a href="demo">DEMO</a></li>
-        <li><a href="pricing.html">PRICING</a></li>
-        <li><a href="signup">SIGN UP</a></li>
+        <li style="border: 3px solid #333"><a href="demo" style="color: black;">DEMO</a></li>
+        <li style="border: 3px solid #333"><a href="pricing.html" style="color: black;">PRICING</a></li>
+        <li style="border: 3px solid #333"><a href="signup" style="color: black;">SIGN UP</a></li>
       </ul>
     </nav>
     <section class="pricing">
@@ -147,8 +166,9 @@
                     <div style="float: left;" class="col-sm-4 text-center">
                         <div class="plan">
 
-                            <h2 class="bronze-text">Bronce</h2>
+                            <h2 class="bronze-text">Basic</h2>
                             <p class="bronze-text price">$12</p>
+                            <p class="yearly">PER ANNUM</p>
                             <p>30,000 views per month</p>
                             <p>1 Website</p>
                             <p>Statistics</p>
@@ -160,8 +180,9 @@
                     <div style="float: left;" class="col-sm-4 text-center">
                         <div class="plan featured">
 
-                            <h2>Silver</h2>
+                            <h2>Premium</h2>
                             <p class="price">$24</p>
+                            <p class="yearly">PER ANNUM</p>
                             <p>150,000 views per month</p>
                             <p>3 Website</p>
                             <p>Statistics</p>
@@ -177,8 +198,9 @@
                     <div style="float: left;" class="col-sm-4 text-center">
                         <div class="plan">
 
-                            <h2 class="gold-text">Gold</h2>
+                            <h2 class="gold-text">Enterprise</h2>
                             <p class="gold-text price">$399</p>
+                            <p class="yearly">PER ANNUM</p>
                             <p>1 Million views per month</p>
                             <p>10 Website</p>
                             <p>Statistics</p>

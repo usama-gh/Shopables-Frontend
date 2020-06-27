@@ -19,7 +19,7 @@ body div {
 }
 html,
 body {
-  background: #000;
+  background: #fff;
 }
 .shopable_logo {
   position: absolute;
@@ -288,7 +288,7 @@ nav > ul > li > a:hover {
 
 /* PRICING */
 .pricing {
-  background: url("../images/backdrops/min/purple.png");
+  background: url("../images/thirdpage-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
