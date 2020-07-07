@@ -1,816 +1,1158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="google-signin-client_id"
+      content="YOUR_CLIENT_ID.apps.googleusercontent.com"
+    />
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Shopables is a marketing tool that lets you create seamless shopping experience through shoppable tags and micro popups for your ecommerce store..">
-    <meta name="author" content="Shopables">
+    <meta
+      name="description"
+      content="Shopables is a marketing tool that lets you create seamless shopping experience through shoppable tags and micro popups for your ecommerce store.."
+    />
+    <meta name="author" content="Shopables" />
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-	<meta property="og:site_name" content="Shopables" /> <!-- website name -->
-	<meta property="og:site" content="https://shopables.co" /> <!-- website link -->
-	<meta property="og:title" content="Unlock your e-commerce micro conversions!"/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="Shopables is a marketing tool that lets you create seamless shopping experience through shoppable tags and micro popups for your ecommerce store." /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Shopables" />
+    <!-- website name -->
+    <meta property="og:site" content="https://shopables.co" />
+    <!-- website link -->
+    <meta
+      property="og:title"
+      content="Unlock your e-commerce micro conversions!"
+    />
+    <!-- title shown in the actual shared post -->
+    <meta
+      property="og:description"
+      content="Shopables is a marketing tool that lets you create seamless shopping experience through shoppable tags and micro popups for your ecommerce store."
+    />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" />
+    <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article" />
 
     <!-- Website Title -->
     <title>Shopables - Increase your e-commerce micro conversions!</title>
-    
 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
     <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-   <!--  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet"> -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
-	
-	<!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
-</head>
-<body data-spy="scroll" data-target=".fixed-top">
-    
+    <!--  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet"> -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link href="css/swiper.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png" />
+  </head>
+  <body data-spy="scroll" data-target=".fixed-top">
     <!-- Preloader -->
-	<div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
+    <div class="spinner-wrapper">
+      <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
     </div>
     <!-- end of preloader -->
-    
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-        <div class="container">
+      <div class="container">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
 
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
+        <!-- Image Logo -->
+        <a class="navbar-brand" href="index.html"
+          ><img
+            style="width: 2.7rem;"
+            src="https://shopables.co/assets/images/logo.png"
+            alt="alternative"
+        /></a>
 
-            <!-- Image Logo -->
-            <a class="navbar-brand"  href="index.html"><img style="width: 2.7rem;" src="https://shopables.co/assets/images/logo.png" alt="alternative"></a> 
-            
-            <!-- Mobile Menu Toggle Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-awesome fas fa-bars"></span>
-                <span class="navbar-toggler-awesome fas fa-times"></span>
-            </button>
-            <!-- end of mobile menu toggle button -->
+        <!-- Mobile Menu Toggle Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarsExampleDefault"
+          aria-controls="navbarsExampleDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-awesome fas fa-bars"></span>
+          <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
 
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#benefits">BENEFITS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#features">FEATURES</a>
-                    </li>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#header"
+                >HOME <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#benefits">BENEFITS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#features">FEATURES</a>
+            </li>
 
-                    <!-- Dropdown Menu -->          
-                    <li class="nav-item ">
-                        <a class="nav-link  page-scroll" href="#demo" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DEMO</a>
-                      
-                    </li>
-                    <!-- end of dropdown menu -->
+            <!-- Dropdown Menu -->
+            <li class="nav-item">
+              <a
+                class="nav-link page-scroll"
+                href="#demo"
+                id="navbarDropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >DEMO</a
+              >
+            </li>
+            <!-- end of dropdown menu -->
 
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#pricing">PRICING</a>
-                    </li>
-                </ul>
-                <span class="nav-item">
-                    <a class="btn-outline-sm" href="log-in.html">LOG IN</a>
-                </span>
-            </div>
-        </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#pricing">PRICING</a>
+            </li>
+          </ul>
+          <span class="nav-item">
+            <a class="btn-outline-sm" href="log-in.html">LOG IN</a>
+          </span>
+        </div>
+      </div>
+      <!-- end of container -->
+    </nav>
+    <!-- end of navbar -->
     <!-- end of navigation -->
-
 
     <!-- Header -->
     <header id="header" class="header">
-        <div class="header-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 col-xl-5">
-                        <div class="text-contaier">
-                            <h1>Increase Micro Conversions 🚀 </h1>
-                            <p class="p-large">Unlock your ecommerce growth through our shoppable tags, nudges and micro popups<br> — everything done on-site.</p>
-                            <a class="btn-solid-lg page-scroll" href="sign-up.html">SIGN UP</a>
-
-                         
-                        </div> <!-- end of text-container -->
-                    </div> <!-- end of col -->
-                    <div class="col-lg-5 col-xl-7">
-                        <div class="image-container">
-                            <div class="img-wrapper">
-                                <div >
-         <img src="images/code_layer.png" alt="Lazy Kit" class="wow w-100 fadeIn" style="position: absolute; transform: scale(0.6) skew(10deg); left: -10px; border-radius: 11px; visibility: visible; animation-name: fadeIn;">
-         <img src="images/web_layer.png" alt="Lazy Kit" class="w-100 wow fadeIn" data-wow-delay="0.5s" style="position: absolute; transform: scale(0.6, 0.8) skew(13deg); opacity: 0.9; visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
-         <img src="images/popup_layer.png" alt="Lazy Kit" data-wow-delay="1s" class="w-100 wow fadeIn" style="position: absolute; top: 210px; left: 120px; transform: scale(0.5) skew(10deg); visibility: visible; animation-delay: 1s; animation-name: fadeIn;">
-          <img src="images/watch_popup.png" alt="Lazy Kit" data-wow-delay="1s" class="w-100 wow fadeIn" style="position: absolute; top: -60px; left: -170px; transform: scale(0.3) skew(10deg); visibility: visible; animation-delay: 1s; animation-name: fadeIn;">
-            <img src="images/nudge.png" alt="Lazy Kit" data-wow-delay="2s" class="w-100 wow fadeIn" style="position: absolute; top: 11px; left: 203px; transform: scale(0.3) skew(10deg); visibility: visible; animation-delay: 2s; animation-name: fadeIn;">
-
-       </div>
-
-                               <!--  <img class="img-fluid" src="images/header-software-app.png" alt="alternative"> -->
-                            </div> <!-- end of img-wrapper -->
-                        </div> <!-- end of image-container -->
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of header-content -->
-    </header> <!-- end of header -->
-    <svg class="header-frame" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 310"><defs><style>.cls-1{fill:#51489e;}</style></defs><title>header-frame</title><path class="cls-1" d="M0,283.054c22.75,12.98,53.1,15.2,70.635,14.808,92.115-2.077,238.3-79.9,354.895-79.938,59.97-.019,106.17,18.059,141.58,34,47.778,21.511,47.778,21.511,90,38.938,28.418,11.731,85.344,26.169,152.992,17.971,68.127-8.255,115.933-34.963,166.492-67.393,37.467-24.032,148.6-112.008,171.753-127.963,27.951-19.26,87.771-81.155,180.71-89.341,72.016-6.343,105.479,12.388,157.434,35.467,69.73,30.976,168.93,92.28,256.514,89.405,100.992-3.315,140.276-41.7,177-64.9V0.24H0V283.054Z"/></svg>
-    <!-- end of header -->
-
-
-    <!-- Customers -->
-    <div class="slider-1">
+      <div class="header-content">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                    <!-- Image Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container image-slider">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                        <img class="img-fluid" src="images/customer-logo-1.png" alt="alternative">
-                                </div>
-                                <div class="swiper-slide">
-                                        <img class="img-fluid" src="images/customer-logo-2.png" alt="alternative">
-                                </div>
-                                <div class="swiper-slide">
-                                        <img class="img-fluid" src="images/customer-logo-3.png" alt="alternative">
-                                </div>
-                                <div class="swiper-slide">
-                                        <img class="img-fluid" src="images/customer-logo-4.png" alt="alternative">
-                                </div>
-                                <div class="swiper-slide">
-                                        <img class="img-fluid" src="images/customer-logo-5.png" alt="alternative">
-                                </div>
-                                <div class="swiper-slide">
-                                        <img class="img-fluid" src="images/customer-logo-6.png" alt="alternative">
-                                </div>
-                            </div> <!-- end of swiper-wrapper -->
-                        </div> <!-- end of swiper container -->
-                    </div> <!-- end of slider-container -->
-                    <!-- end of image slider -->
+          <div class="row">
+            <div class="col-lg-7 col-xl-5">
+              <div class="text-contaier">
+                <h1>Increase Micro Conversions 🚀</h1>
+                <p class="p-large">
+                  Unlock your ecommerce growth through our shoppable tags,
+                  nudges and micro popups<br />
+                  — everything done on-site.
+                </p>
+                <a class="btn-solid-lg page-scroll" href="sign-up.html"
+                  >SIGN UP</a
+                >
+              </div>
+              <!-- end of text-container -->
+            </div>
+            <!-- end of col -->
+            <div class="col-lg-5 col-xl-7">
+              <div class="image-container">
+                <div class="img-wrapper">
+                  <div>
+                    <img
+                      src="images/code_layer.png"
+                      alt="Lazy Kit"
+                      class="wow w-100 fadeIn"
+                      style="
+                        position: absolute;
+                        transform: scale(0.6) skew(10deg);
+                        left: -10px;
+                        border-radius: 11px;
+                        visibility: visible;
+                        animation-name: fadeIn;
+                      "
+                    />
+                    <img
+                      src="images/web_layer.png"
+                      alt="Lazy Kit"
+                      class="w-100 wow fadeIn"
+                      data-wow-delay="0.5s"
+                      style="
+                        position: absolute;
+                        transform: scale(0.6, 0.8) skew(13deg);
+                        opacity: 0.9;
+                        visibility: visible;
+                        animation-delay: 0.5s;
+                        animation-name: fadeIn;
+                      "
+                    />
+                    <img
+                      src="images/popup_layer.png"
+                      alt="Lazy Kit"
+                      data-wow-delay="1s"
+                      class="w-100 wow fadeIn"
+                      style="
+                        position: absolute;
+                        top: 210px;
+                        left: 120px;
+                        transform: scale(0.5) skew(10deg);
+                        visibility: visible;
+                        animation-delay: 1s;
+                        animation-name: fadeIn;
+                      "
+                    />
+                    <img
+                      src="images/watch_popup.png"
+                      alt="Lazy Kit"
+                      data-wow-delay="1s"
+                      class="w-100 wow fadeIn"
+                      style="
+                        position: absolute;
+                        top: -60px;
+                        left: -170px;
+                        transform: scale(0.3) skew(10deg);
+                        visibility: visible;
+                        animation-delay: 1s;
+                        animation-name: fadeIn;
+                      "
+                    />
+                    <img
+                      src="images/nudge.png"
+                      alt="Lazy Kit"
+                      data-wow-delay="2s"
+                      class="w-100 wow fadeIn"
+                      style="
+                        position: absolute;
+                        top: 11px;
+                        left: 203px;
+                        transform: scale(0.3) skew(10deg);
+                        visibility: visible;
+                        animation-delay: 2s;
+                        animation-name: fadeIn;
+                      "
+                    />
+                  </div>
 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider-1 -->
-    <!-- end of customers -->
-
+                  <!--  <img class="img-fluid" src="images/header-software-app.png" alt="alternative"> -->
+                </div>
+                <!-- end of img-wrapper -->
+              </div>
+              <!-- end of image-container -->
+            </div>
+            <!-- end of col -->
+          </div>
+          <!-- end of row -->
+        </div>
+        <!-- end of container -->
+      </div>
+      <!-- end of header-content -->
+    </header>
+    <!-- end of header -->
+    <svg
+      class="header-frame"
+      data-name="Layer 1"
+      xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="none"
+      viewBox="0 0 1920 310"
+    >
+      <defs>
+        <style>
+          .cls-1 {
+            fill: #51489e;
+          }
+        </style>
+      </defs>
+      <title>header-frame</title>
+      <path
+        class="cls-1"
+        d="M0,283.054c22.75,12.98,53.1,15.2,70.635,14.808,92.115-2.077,238.3-79.9,354.895-79.938,59.97-.019,106.17,18.059,141.58,34,47.778,21.511,47.778,21.511,90,38.938,28.418,11.731,85.344,26.169,152.992,17.971,68.127-8.255,115.933-34.963,166.492-67.393,37.467-24.032,148.6-112.008,171.753-127.963,27.951-19.26,87.771-81.155,180.71-89.341,72.016-6.343,105.479,12.388,157.434,35.467,69.73,30.976,168.93,92.28,256.514,89.405,100.992-3.315,140.276-41.7,177-64.9V0.24H0V283.054Z"
+      />
+    </svg>
+    <!-- end of header -->
 
     <!-- Description -->
     <div class="cards-1" id="benefits">
-        <div class="container position-relative">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="above-heading">Reduce Friction — More Attention More Wins</div>
-                    <h2 class="h2-heading">Micro conversions <br>leads to sales conversions.</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            
-      
-               
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="above-heading">
+              Reduce Friction — More Attention More Wins
+            </div>
+            <h2 class="h2-heading">
+              Micro conversions <br />leads to sales conversions.
+            </h2>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
 
-                   
-                
+        <div class="mt-5 py-5">
+          <div class="row">
+            <div class="col-sm-7 mx-auto my-auto">
+              <h2 class="text-white display-3">Increased CTRs</h2>
+              <p class="lead">
+                Shopables tags prompts visitors to take action by giving them a
+                CTA.
+              </p>
+            </div>
+            <div class="col-sm-5">
+              <img
+                src="images/undraw_predictive_analytics_kf9n.svg"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <!-- end of card -->
 
-                <div class="mt-5 py-5">
+          <!-- Card -->
+        </div>
 
-                    <div class="row">
-                        <div class="col-sm-7 mx-auto my-auto    ">
+        <div class="mt-5 py-5">
+          <!-- end of card -->
 
-                            <h2 class="text-white display-3">Increased CTRs</h2>
-                            <p class="lead">Shopables tags prompts visitors to take action by giving them a CTA. </p>
+          <div class="row">
+            <div class="col-sm-7 mx-auto my-auto">
+              <!-- Card -->
+              <h2 class="text-white display-3">More Attention</h2>
+              <p class="lead">
+                Attention is the key. Our tags and it's micro copy will grab
+                visitors attention.
+              </p>
+            </div>
 
-                        </div>
-                        <div class="col-sm-5">
-                             <img src="images/undraw_predictive_analytics_kf9n.svg" class="img-fluid">
-                        </div>
-                    </div>
-                    <!-- end of card -->
-                   
-                    <!-- Card -->
-                      
-                </div>
+            <div class="col-sm-5">
+              <img
+                src="images/undraw_surveillance_kqll.svg"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
 
-       
-                <div class="mt-5 py-5">
-                    <!-- end of card -->
+        <div class="mt-5 py-5">
+          <div class="row">
+            <div class="col-sm-7 mx-auto my-auto">
+              <h2 class="text-white display-3">More Revenue</h2>
+              <p class="lead">
+                When you have high CTR you will see more people will be
+                converting.
+              </p>
+            </div>
 
-                     <div class="row">
-                        <div class="col-sm-7 mx-auto my-auto    ">
-                    <!-- Card -->
-                      <h2 class="text-white display-3">More Attention</h2>
-                            <p class="lead">Attention is the key. Our tags and it's micro copy will grab visitors attention. </p>
+            <div class="col-sm-5">
+              <img src="images/undraw_investing_7u74.svg" class="img-fluid" />
+            </div>
+          </div>
+        </div>
 
-                         </div>
-                         
-                         <div class="col-sm-5">   
-                            <img src="images/undraw_surveillance_kqll.svg" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
+        <!-- end of card -->
 
-
-                <div class="mt-5 py-5">
-
-                    <div class="row">
-                        <div class="col-sm-7 mx-auto my-auto">
-                            
-                            <h2 class="text-white display-3">More Revenue</h2>
-                           <p class="lead">When you have high CTR you will see more people will be converting.</p>
-                       </div>
-
-                       <div class="col-sm-5">
-                            <img src="images/undraw_investing_7u74.svg" class="img-fluid">
-                       </div>
-
-                    </div>  
-
-
-                 </div>   
-        
-            
-                    <!-- end of card -->
-
-
-
-           
-             <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-1 -->
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of cards-1 -->
     <!-- end of description -->
 
-
     <!-- Features -->
-    <div id="features" class="tabs ">
-        <div class="container text-left">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="above-heading">Higher CTRs — More Add to Carts — More Revenue</div>
-                    <h2 class="h2-heading">See how your CTRs will go up!</h2>
-                    <p class="p-heading"> </p>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
+    <div id="features" class="tabs">
+      <div class="container text-left">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="above-heading">
+              Higher CTRs — More Add to Carts — More Revenue
+            </div>
+            <h2 class="h2-heading">See how your CTRs will go up!</h2>
+            <p class="p-heading"></p>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Tabs Links -->
+            <ul class="nav nav-tabs" id="argoTabs" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="nav-tab-1"
+                  data-toggle="tab"
+                  href="#tab-1"
+                  role="tab"
+                  aria-controls="tab-1"
+                  aria-selected="true"
+                  >Shoppable Tags</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="nav-tab-2"
+                  data-toggle="tab"
+                  href="#tab-2"
+                  role="tab"
+                  aria-controls="tab-2"
+                  aria-selected="false"
+                  >Micro Popups</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="nav-tab-3"
+                  data-toggle="tab"
+                  href="#tab-3"
+                  role="tab"
+                  aria-controls="tab-3"
+                  aria-selected="false"
+                  >Nudges</a
+                >
+              </li>
+            </ul>
+            <!-- end of tabs links -->
 
-                    <!-- Tabs Links -->
-                    <ul class="nav nav-tabs" id="argoTabs" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">Shoppable Tags</a>
+            <!-- Tabs Content -->
+            <div class="tab-content" id="argoTabsContent">
+              <!-- Tab -->
+              <div
+                class="tab-pane fade show active"
+                id="tab-1"
+                role="tabpanel"
+                aria-labelledby="tab-1"
+              >
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="image-container">
+                      <img
+                        class="img-fluid"
+                        src="images/features-2.png"
+                        alt="alternative"
+                      />
+                    </div>
+                    <!-- end of image-container -->
+                  </div>
+                  <!-- end of col -->
+                  <div class="col-lg-6">
+                    <div class="text-container">
+                      <h3>Shoppable Tags</h3>
+                      <p>
+                        Make your products standout. Give visitor an actionable
+                        way to get more information about your product.
+                      </p>
+                      <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                          <i class="fas fa-square"></i>
+                          <div class="media-body">
+                            Showcase your product details through a interactive
+                            way.
+                          </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Micro Popups</a>
+                        <li class="media">
+                          <i class="fas fa-square"></i>
+                          <div class="media-body">
+                            Gives a CTA to a visitor. Take user to product page
+                            directly from the tag.
+                          </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">Nudges</a>
+                        <li class="media">
+                          <i class="fas fa-square"></i>
+                          <div class="media-body">
+                            Setup Shopify Store it allow a checkout directly
+                            from the tag.
+                          </div>
                         </li>
-                    </ul>
-                    <!-- end of tabs links -->
+                      </ul>
+                    </div>
+                    <!-- end of text-container -->
+                  </div>
+                  <!-- end of col -->
+                </div>
+                <!-- end of row -->
+              </div>
+              <!-- end of tab-pane -->
+              <!-- end of tab -->
 
-                    <!-- Tabs Content -->
-                    <div class="tab-content" id="argoTabsContent">
+              <!-- Tab -->
+              <div
+                class="tab-pane fade"
+                id="tab-2"
+                role="tabpanel"
+                aria-labelledby="tab-2"
+              >
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="image-container">
+                      <img
+                        class="img-fluid"
+                        src="images/features-1.png"
+                        alt="alternative"
+                      />
+                    </div>
+                    <!-- end of image-container -->
+                  </div>
+                  <!-- end of col -->
+                  <div class="col-lg-6">
+                    <div class="text-container">
+                      <h3>Micro Popups</h3>
+                      <p>
+                        Big large popups are annoying. We've multiple micro
+                        popups which drives results.
+                      </p>
+                      <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                          <i class="fas fa-square"></i>
+                          <div class="media-body">
+                            Quickly create and edit micro popups directly from
+                            your website.
+                          </div>
+                        </li>
+                        <li class="media">
+                          <i class="fas fa-square"></i>
+                          <div class="media-body">
+                            Show time based deals of discount offers.
+                          </div>
+                        </li>
+                        <li class="media">
+                          <i class="fas fa-square"></i>
+                          <div class="media-body">
+                            Edit CTA copy to see which one works best for you.
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- end of text-container -->
+                  </div>
+                  <!-- end of col -->
+                </div>
+                <!-- end of row -->
+              </div>
+              <!-- end of tab-pane -->
+              <!-- end of tab -->
 
-                        <!-- Tab -->
-                        <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="image-container">
-                                        <img class="img-fluid" src="images/features-2.png" alt="alternative">
-                                    </div> <!-- end of image-container -->
-                                </div> <!-- end of col -->
-                                <div class="col-lg-6">
-                                    <div class="text-container">
-                                        <h3>Shoppable Tags</h3>
-                                        <p>Make your products standout. Give visitor an actionable way to get more information about your product.</p>
-                                        <ul class="list-unstyled li-space-lg">
-                                            <li class="media">
-                                                <i class="fas fa-square"></i>
-                                                <div class="media-body">Showcase your product details through a interactive way.</div>
-                                            </li>
-                                            <li class="media">
-                                                <i class="fas fa-square"></i>
-                                                <div class="media-body">Gives a CTA to a visitor. Take user to product page directly from the tag.</div>
-                                            </li>
-                                            <li class="media">
-                                                <i class="fas fa-square"></i>
-                                                <div class="media-body">Setup Shopify Store it allow a checkout directly from the tag.</div>
-                                            </li>
-                                        </ul>
-                                      
-                                    </div> <!-- end of text-container -->
-                                </div> <!-- end of col -->
-                            </div> <!-- end of row -->
-                        </div> <!-- end of tab-pane -->
-                        <!-- end of tab -->
-
-                        <!-- Tab -->
-                        <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="image-container">
-                                        <img class="img-fluid" src="images/features-2.png" alt="alternative">
-                                    </div> <!-- end of image-container -->
-                                </div> <!-- end of col -->
-                                <div class="col-lg-6">
-                                    <div class="text-container">
-                                        <h3>Micro Popups</h3>
-                                        <p>Big large popups are annoying. We've multiple micro popups which drives results.</p>
-                                        <ul class="list-unstyled li-space-lg">
-                                            <li class="media">
-                                                <i class="fas fa-square"></i>
-                                                <div class="media-body">Quickly create and edit micro popups directly from your website.</div>
-                                            </li>
-                                            <li class="media">
-                                                <i class="fas fa-square"></i>
-                                                <div class="media-body">Show time based deals of discount offers.</div>
-                                            </li>
-                                            <li class="media">
-                                                <i class="fas fa-square"></i>
-                                                <div class="media-body">Edit CTA copy to see which one works best for you.</div>
-                                            </li>
-                                        </ul>
-                                      
-                                    </div> <!-- end of text-container -->
-                                </div> <!-- end of col -->
-                            </div> <!-- end of row -->
-                        </div> <!-- end of tab-pane -->
-                        <!-- end of tab -->
-
-                        <!-- Tab -->
-                        <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="image-container">
-                                        <img class="img-fluid" src="images/features-3.png" alt="alternative">
-                                    </div> <!-- end of image-container -->
-                                </div> <!-- end of col -->
-                                <div class="col-lg-6">
-                                    <div class="text-container">
-                                        <h3>Nudges</h3>
-                                        <p>These are small micro copy tags on your products which will create a persuasion effect.</p>
-                                        <ul class="list-unstyled li-space-lg">
-                                            <li class="media">
-                                                <i class="fas fa-square"></i>
-                                                <div class="media-body">Test out different copies on your each product.</div>
-                                            </li>
-                                            <li class="media">
-                                                <i class="fas fa-square"></i>
-                                                <div class="media-body">You can also add link to it.</div>
-                                            </li>
-                                            <li class="media">
-                                                <i class="fas fa-square"></i>
-                                                <div class="media-body">Try scarcity copies on it. It'll increase your CTRs.</div>
-                                            </li>
-                                        </ul>
-                             
-                                    </div> <!-- end of text-container -->
-                                </div> <!-- end of col -->
-                            </div> <!-- end of row -->
-                        </div> <!-- end of tab-pane -->
-                        <!-- end of tab -->
-                        
-                    </div> <!-- end of tab content -->
-                    <!-- end of tabs content -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of tabs -->
+              <!-- Tab -->
+              <div
+                class="tab-pane fade"
+                id="tab-3"
+                role="tabpanel"
+                aria-labelledby="tab-3"
+              >
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="image-container">
+                      <img
+                        class="img-fluid"
+                        src="images/features-3.png"
+                        alt="alternative"
+                      />
+                    </div>
+                    <!-- end of image-container -->
+                  </div>
+                  <!-- end of col -->
+                  <div class="col-lg-6">
+                    <div class="text-container">
+                      <h3>Nudges</h3>
+                      <p>
+                        These are small micro copy tags on your products which
+                        will create a persuasion effect.
+                      </p>
+                      <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                          <i class="fas fa-square"></i>
+                          <div class="media-body">
+                            Test out different copies on your each product.
+                          </div>
+                        </li>
+                        <li class="media">
+                          <i class="fas fa-square"></i>
+                          <div class="media-body">
+                            You can also add link to it.
+                          </div>
+                        </li>
+                        <li class="media">
+                          <i class="fas fa-square"></i>
+                          <div class="media-body">
+                            Try scarcity copies on it. It'll increase your CTRs.
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- end of text-container -->
+                  </div>
+                  <!-- end of col -->
+                </div>
+                <!-- end of row -->
+              </div>
+              <!-- end of tab-pane -->
+              <!-- end of tab -->
+            </div>
+            <!-- end of tab content -->
+            <!-- end of tabs content -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of tabs -->
     <!-- end of features -->
-
 
     <!-- Details Lightboxes -->
 
-
-
-
-
- <div  class="basic-1 text-white" style="background: #51489e;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 my-auto">
-                    <div class="text-container">
-                        <h2 class="text-white">All done from your website.</h2>
-                        <p class="text-white">Just add our one line of code on your website. Once you're done. You'll see on every image there will be plus sign. Click on it and let the magic begins.</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="media">
-                                <i class="fas fa-square text-white"></i>
-                                <div class="media-body">There is a toggle button for you to switch between Preview and Edit Mode.</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square  text-white"></i>
-                                <div class="media-body">Only you as a admin will be able to see that plus sign on each image.</div>
-                            </li>
-                        </ul>
-                      
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/onpage.png"  alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
+    <div class="basic-1 text-white" style="background: #51489e;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 my-auto">
+            <div class="text-container">
+              <h2 class="text-white">All done from your website.</h2>
+              <p class="text-white">
+                Just add our one line of code on your website. Once you're done.
+                You'll see on every image there will be plus sign. Click on it
+                and let the magic begins.
+              </p>
+              <ul class="list-unstyled li-space-lg">
+                <li class="media">
+                  <i class="fas fa-square text-white"></i>
+                  <div class="media-body">
+                    There is a toggle button for you to switch between Preview
+                    and Edit Mode.
+                  </div>
+                </li>
+                <li class="media">
+                  <i class="fas fa-square text-white"></i>
+                  <div class="media-body">
+                    Only you as a admin will be able to see that plus sign on
+                    each image.
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- end of text-container -->
+          </div>
+          <!-- end of col -->
+          <div class="col-lg-6">
+            <div class="image-container">
+              <img
+                class="img-fluid"
+                src="images/onpage.png"
+                alt="alternative"
+              />
+            </div>
+            <!-- end of image-container -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of basic-1 -->
     <!-- end of details -->
 
-
-
-
- <div  class="basic-1 text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 my-auto        ">
-                    <div class="text-container">
-                        <h2 class="text-white ">Third Party Integrations.</h2>
-                        <p class="text-white ">We've added Facebook Pixels, Google Analytics and Shopify integrations for you to get the most out of Shopables.</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="media">
-                                <i class="text-white fas fa-square"></i>
-                                <div class="media-body">Use them to create custom audiences and tracking purposes.</div>
-                            </li>
-                            <li class="media">
-                                <i class="text-white fas fa-square"></i>
-                                <div class="media-body">Through Shopify you can offer your customer a checkout directly from image.</div>
-                            </li>
-                        </ul>
-                       
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/integration.png"  alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
+    <div class="basic-1 text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 my-auto">
+            <div class="text-container">
+              <h2 class="text-white">Third Party Integrations.</h2>
+              <p class="text-white">
+                We've added Facebook Pixels, Google Analytics and Shopify
+                integrations for you to get the most out of Shopables.
+              </p>
+              <ul class="list-unstyled li-space-lg">
+                <li class="media">
+                  <i class="text-white fas fa-square"></i>
+                  <div class="media-body">
+                    Use them to create custom audiences and tracking purposes.
+                  </div>
+                </li>
+                <li class="media">
+                  <i class="text-white fas fa-square"></i>
+                  <div class="media-body">
+                    Through Shopify you can offer your customer a checkout
+                    directly from image.
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- end of text-container -->
+          </div>
+          <!-- end of col -->
+          <div class="col-lg-6">
+            <div class="image-container">
+              <img
+                class="img-fluid"
+                src="images/integration.png"
+                alt="alternative"
+              />
+            </div>
+            <!-- end of image-container -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of basic-1 -->
     <!-- end of details -->
-
-
-
-
 
     <!-- Video -->
     <div id="demo" class="basic-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Video Preview -->
+            <div class="image-container">
+              <div class="video-wrapper">
+                <a
+                  class="popup-youtube"
+                  href="https://www.youtube.com/watch?v=IjWADc1NrlU"
+                  data-effect="fadeIn"
+                >
+                  <img
+                    class="img-fluid"
+                    src="images/video_thumb.png"
+                    alt="alternative"
+                  />
+                  <span class="video-play-button">
+                    <span></span>
+                  </span>
+                </a>
+              </div>
+              <!-- end of video-wrapper -->
+            </div>
+            <!-- end of image-container -->
+            <!-- end of video preview -->
 
-                    <!-- Video Preview -->
-                    <div class="image-container">
-                        <div class="video-wrapper">
-                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs" data-effect="fadeIn">
-                                <img class="img-fluid" src="images/video-image.png" alt="alternative">
-                                <span class="video-play-button">
-                                    <span></span>
-                                </span>
-                            </a>
-                        </div> <!-- end of video-wrapper -->
-                    </div> <!-- end of image-container -->
-                    <!-- end of video preview -->
+            <div class="p-heading">
+              See how easy is to create shoppable tags, popups, nudges and text
+              tags on your website.
+            </div>
 
-                    <div class="p-heading">See how easy is to create shoppable tags, popups, nudges and text tags on your website.</div>   
+            <div class="row mt-5 pt-5">
+              <div class="col-sm-6">
+                <h3>Store demo</h3>
+                <p>See how shoppable tags looks on a store</p>
+                <a
+                  href="https://shopables.co/demo"
+                  class="btn btn-outline-light"
+                  >View Demo</a
+                >
+              </div>
 
-                    <div class="row mt-5 pt-5">
-                        <div class="col-sm-6">
-                            <h3>Store demo</h3>
-                            <p>See how shoppable tags looks on a store</p>
-                            <a class="btn btn-outline-light">View Demo</a>
-                        </div>
-
-                        <div class="col-sm-6">
-                               <h3>Lookbook demo</h3>
-                            <p>See how it'll looks on your lookbook page.</p>
-                             <a class="btn btn-outline-light">View Demo</a>
-                        </div>
-
-                    </div>     
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
+              <div class="col-sm-6">
+                <h3>Lookbook demo</h3>
+                <p>See how it'll looks on your lookbook page.</p>
+                <a class="btn btn-outline-light">View Demo</a>
+              </div>
+            </div>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of basic-2 -->
     <!-- end of video -->
-
 
     <!-- Pricing -->
     <div id="pricing" class="cards-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="lead">See which plan works best for you.</p>
-                    <h2 class="h2-heading mb-4">Pricing</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="lead">See which plan works best for you.</p>
+            <h2 class="h2-heading mb-4">Pricing</h2>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Card-->
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">BASIC</div>
+                <div class="price">
+                  <span class="currency">$</span><span class="value">14$</span>
+                </div>
+                <div class="frequency text-dark">monthly</div>
+                <div class="divider"></div>
+                <ul class="list-unstyled li-space-lg">
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">20,000 views/mo</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">1 - Website</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">Analytics</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">Shopify Buy Now</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-times"></i>
+                    <div class="media-body text-dark">
+                      Google Analytics Tracking
+                    </div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-times"></i>
+                    <div class="media-body text-dark">Facebook Pixel</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-times"></i>
+                    <div class="media-body text-dark">UTM parameters</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-times"></i>
+                    <div class="media-body text-dark">Customization</div>
+                  </li>
+                </ul>
+                <div class="button-wrapper">
+                  <a class="btn-solid-reg page-scroll" href="sign-up.html"
+                    >SIGN UP</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
+            <!-- end of card -->
 
-                           <div class="card-title">Yearly</div>
-                    <label class="switch mb-5">
-                            <input type="checkbox">
-                            <span class="slider round"></span>
-                    </label>
+            <!-- Card-->
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">ADVANCED</div>
+                <div class="price">
+                  <span class="currency">$</span><span class="value">47</span>
+                </div>
+                <div class="frequency text-dark">monthly</div>
+                <div class="divider"></div>
+                <ul class="list-unstyled li-space-lg">
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">150,000 views/mo</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">3 - Website</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">Analytics</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">Shopify Buy Now</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">
+                      Google Analytics Tracking
+                    </div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">Facebook Pixel</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">UTM parameters</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">Customization</div>
+                  </li>
+                </ul>
+                <div class="button-wrapper">
+                  <a class="btn-solid-reg page-scroll" href="sign-up.html"
+                    >SIGN UP</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
+            <!-- end of card -->
 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Card-->
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-title">BASIC</div>
-                            <div class="price"><span class="currency">$</span><span class="value">14$</span></div>
-                            <div class="frequency text-dark">monthly</div>
-                            <div class="divider"></div>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">20,000 views/mo</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">1 - Website</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">Analytics</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">Shopify Buy Now</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-times"></i><div class="media-body text-dark">Google Analytics Tracking</div>
-                                </li>
-                                   <li class="media">
-                                    <i class="fas fa-times"></i><div class="media-body text-dark">Facebook Pixel</div>
-                                </li>
-                                 <li class="media">
-                                    <i class="fas fa-times"></i><div class="media-body text-dark">UTM parameters</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-times"></i><div class="media-body text-dark">Customization</div>
-                                </li>
-                            </ul>
-                            <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="sign-up.html">SIGN UP</a>
-                            </div>
-                        </div>
-                    </div> <!-- end of card -->
-                    <!-- end of card -->
-
-                    <!-- Card-->
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-title">ADVANCED</div>
-                            <div class="price"><span class="currency">$</span><span class="value">47</span></div>
-                            <div class="frequency text-dark">monthly</div>
-                            <div class="divider"></div>
-                            <ul class="list-unstyled li-space-lg">
-                                 <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">150,000 views/mo</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">3 - Website</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">Analytics</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">Shopify Buy Now</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">Google Analytics Tracking</div>
-                                </li>
-                                   <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">Facebook Pixel</div>
-                                </li>
-                                 <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">UTM parameters</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">Customization</div>
-                                </li>
-                            </ul>
-                            <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="sign-up.html">SIGN UP</a>
-                            </div>
-                        </div>
-                    </div> <!-- end of card -->
-                    <!-- end of card -->
-
-                    <!-- Card-->
-                    <div class="card">
-                        <!--<div class="label">
+            <!-- Card-->
+            <div class="card">
+              <!--<div class="label">
                             <p class="best-value">Best Value</p>
                         </div> -->
-                        <div class="card-body">
-                            <div class="card-title">Enterprise</div>
-                            <div class="price"><span class="currency">$</span><span class="value">147</span></div>
-                            <div class="frequency text-dark">monthly</div>
-                            <div class="divider"></div>
-                            <ul class="list-unstyled li-space-lg">
-                                   <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">Upto 1M views/mo</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">Unlimited Websites</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">Analytics</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">Shopify Buy Now</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">Google Analytics Tracking</div>
-                                </li>
-                                   <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">Facebook Pixel</div>
-                                </li>
-                                 <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">UTM parameters</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body text-dark">Customization</div>
-                                </li>
-                            </ul>
-                            <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="sign-up.html">SIGN UP</a>
-                            </div>
-                        </div>
-                    </div> <!-- end of card -->
-                    <!-- end of card -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-2 -->
+              <div class="card-body">
+                <div class="card-title">Enterprise</div>
+                <div class="price">
+                  <span class="currency">$</span><span class="value">147</span>
+                </div>
+                <div class="frequency text-dark">monthly</div>
+                <div class="divider"></div>
+                <ul class="list-unstyled li-space-lg">
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">Upto 1M views/mo</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">Unlimited Websites</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">Analytics</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">Shopify Buy Now</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">
+                      Google Analytics Tracking
+                    </div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">Facebook Pixel</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">UTM parameters</div>
+                  </li>
+                  <li class="media">
+                    <i class="fas fa-check"></i>
+                    <div class="media-body text-dark">Customization</div>
+                  </li>
+                </ul>
+                <div class="button-wrapper">
+                  <a class="btn-solid-reg page-scroll" href="sign-up.html"
+                    >SIGN UP</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
+            <!-- end of card -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of cards-2 -->
     <!-- end of pricing -->
-
 
     <!-- Testimonials -->
     <div class="slider-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">      
-                    
-                    <!-- Text Slider -->
-                    <p class="lead">All plans comes with 14 days free trial</p>
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider-2 -->
-    <!-- end of testimonials -->
-<style type="text/css">
-     .center-me {
-  margin: 0 auto;
-}
-</style>
-    <div class="container">
-        <div class="text-center">
-            
-                <h2 class="display-4">Let's increase those click-through rates!</h2>
-                <p class="lead">Start your free trial</p>
-
-                 <div style="width: 25rem;" class="center-me pt-4">
-                 <form id="newsletterForm" data-toggle="validator" data-focus="false">
-                            <div class="form-group">
-                                <input type="email" class="form-control-input" id="nemail" required>
-                                <label class="label-control" for="nemail">Email</label>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        
-                            <div class="form-group">
-                                <button type="submit" class="form-control-submit-button">Signup</button>
-                            </div>
-                            <div class="form-message">
-                                <div id="nmsgSubmit" class="h3 text-center hidden"></div>
-                            </div>
-                        </form>
-
-                   </div>     
-
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <!-- Text Slider -->
+            <p class="lead">All plans comes with 14 days free trial</p>
+          </div>
+          <!-- end of col -->
         </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of slider-2 -->
+    <!-- end of testimonials -->
+    <style type="text/css">
+      .center-me {
+        margin: 0 auto;
+      }
+    </style>
+    <div class="container">
+      <div class="text-center">
+        <h2 class="display-4">Let's increase those click-through rates!</h2>
+        <p class="lead">Start your free trial</p>
+
+        <div style="width: 25rem;" class="center-me pt-4">
+          <form id="newsletterForm" data-toggle="validator" data-focus="false">
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control-input"
+                id="nemail"
+                required
+              />
+              <label class="label-control" for="nemail">Email</label>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group">
+              <button type="submit" class="form-control-submit-button">
+                Signup
+              </button>
+            </div>
+            <div class="form-message">
+              <div id="nmsgSubmit" class="h3 text-center hidden"></div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
     <!-- Newsletter -->
     <div class="form">
-        <div class="container">
-        
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="icon-container">
-                        <span class="fa-stack">
-                            <a href="https://www.facebook.com/shopables/">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                       
-                        <span class="fa-stack">
-                            <a href="https://www.linkedin.com/company/shopables/">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                            </a>
-                        </span>
-                    </div> <!-- end of col -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of form -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="icon-container">
+              <span class="fa-stack">
+                <a href="https://www.facebook.com/shopables/">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x"></i>
+                </a>
+              </span>
+
+              <span class="fa-stack">
+                <a href="https://www.linkedin.com/company/shopables/">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                </a>
+              </span>
+            </div>
+            <!-- end of col -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of form -->
     <!-- end of newsletter -->
 
-
     <!-- Footer -->
-  <!--   <svg class="footer-frame" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 79"><defs><style>.cls-2{fill:#51489e;}</style></defs><title>footer-frame</title><path class="cls-2" d="M0,72.427C143,12.138,255.5,4.577,328.644,7.943c147.721,6.8,183.881,60.242,320.83,53.737,143-6.793,167.826-68.128,293-60.9,109.095,6.3,115.68,54.364,225.251,57.319,113.58,3.064,138.8-47.711,251.189-41.8,104.012,5.474,109.713,50.4,197.369,46.572,89.549-3.91,124.375-52.563,227.622-50.155A338.646,338.646,0,0,1,1920,23.467V79.75H0V72.427Z" transform="translate(0 -0.188)"/></svg> -->
+    <!--   <svg class="footer-frame" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 79"><defs><style>.cls-2{fill:#51489e;}</style></defs><title>footer-frame</title><path class="cls-2" d="M0,72.427C143,12.138,255.5,4.577,328.644,7.943c147.721,6.8,183.881,60.242,320.83,53.737,143-6.793,167.826-68.128,293-60.9,109.095,6.3,115.68,54.364,225.251,57.319,113.58,3.064,138.8-47.711,251.189-41.8,104.012,5.474,109.713,50.4,197.369,46.572,89.549-3.91,124.375-52.563,227.622-50.155A338.646,338.646,0,0,1,1920,23.467V79.75H0V72.427Z" transform="translate(0 -0.188)"/></svg> -->
     <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="footer-col first">
-                        <h4>Shopales.co</h4>
-                        <p class="p-small">Shopables is a marketing tool that lets you create seamless shopping experience through shoppable tags and micro popups for your ecommerce store.</p>
-                    </div>
-                </div> <!-- end of col -->
-                <div class="col-md-4">
-                    <div class="footer-col middle">
-                        <h4>Resources</h4>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body"><a class="white" href="https://shopables.co/blog">BLOG</a></div>
-                            </li>
-                           <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body"><a class="white" href="privacy-policy.html">PRIVACY POLICY</a></div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body"><a class="white" href="terms.html">TERMS</a></div>
-                            </li>
-                        </ul>
-                    </div>
-                </div> <!-- end of col -->
-                <div class="col-md-4">
-                    <div class="footer-col last">
-                        <h4>Contact</h4>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li class="media">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <div class="media-body">22 Innovative, San Francisco, CA 94043, US</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-envelope"></i>
-                                <div class="media-body"><a class="white" href="mailto:contact@tivo.com">contact@shopables.co</a> <i class="fas fa-globe"></i><a class="white" href="#your-link">www.shopables.co</a></div>
-                            </li>
-                        </ul>
-                    </div> 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-col first">
+              <h4>Shopales.co</h4>
+              <p class="p-small">
+                Shopables is a marketing tool that lets you create seamless
+                shopping experience through shoppable tags and micro popups for
+                your ecommerce store.
+              </p>
+            </div>
+          </div>
+          <!-- end of col -->
+          <div class="col-md-4">
+            <div class="footer-col middle">
+              <h4>Resources</h4>
+              <ul class="list-unstyled li-space-lg p-small">
+                <li class="media">
+                  <i class="fas fa-square"></i>
+                  <div class="media-body">
+                    <a class="white" href="https://shopables.co/blog">BLOG</a>
+                  </div>
+                </li>
+                <li class="media">
+                  <i class="fas fa-square"></i>
+                  <div class="media-body">
+                    <a class="white" href="privacy-policy.html"
+                      >PRIVACY POLICY</a
+                    >
+                  </div>
+                </li>
+                <li class="media">
+                  <i class="fas fa-square"></i>
+                  <div class="media-body">
+                    <a class="white" href="terms.html">TERMS</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of col -->
+          <div class="col-md-4">
+            <div class="footer-col last">
+              <h4>Contact</h4>
+              <ul class="list-unstyled li-space-lg p-small">
+                <li class="media">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="media-body">
+                    22 Innovative, San Francisco, CA 94043, US
+                  </div>
+                </li>
+                <li class="media">
+                  <i class="fas fa-envelope"></i>
+                  <div class="media-body">
+                    <a class="white" href="mailto:contact@tivo.com"
+                      >contact@shopables.co</a
+                    >
+                    <i class="fas fa-globe"></i
+                    ><a class="white" href="#your-link">www.shopables.co</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
     <!-- end of footer -->
-
+    <!-- end of footer -->
 
     <!-- Copyright -->
     <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">Copyright © 2020 <a href="https://growthhopper.com">A Product Of GrowthHopper</a></p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="p-small">
+              Copyright © 2020
+              <a href="https://growthhopper.com">A Product Of GrowthHopper</a>
+            </p>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- enf of row -->
+      </div>
+      <!-- end of container -->
+    </div>
     <!-- end of copyright -->
-    
-    	
+    <!-- end of copyright -->
+
     <!-- Scripts -->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script>
+    <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script>
+    <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script>
+    <!-- Custom scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
-        new WOW().init();
-        </script>
-</body>
+      new WOW().init();
+    </script>
+  </body>
 </html>
