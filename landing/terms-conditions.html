@@ -1,280 +1,443 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Tivo is a HTML landing page template built with Bootstrap to help you crate engaging presentations for SaaS apps and convert visitors into users.">
-    <meta name="author" content="Inovatik">
+    <meta
+      name="description"
+      content="Shopables is a marketing tool that lets you create seamless shopping experience through shoppable tags and micro popups for your ecommerce store.."
+    />
+    <meta name="author" content="Shopables" />
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Shopables" />
+    <!-- website name -->
+    <meta property="og:site" content="https://shopables.co" />
+    <!-- website link -->
+    <meta property="og:title" content="Shopables" />
+    <!-- title shown in the actual shared post -->
+    <meta
+      property="og:description"
+      content="Shopables is a marketing tool that lets you create seamless shopping experience through shoppable tags and micro popups for your ecommerce store."
+    />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" />
+    <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article" />
 
     <!-- Website Title -->
-    <title>Terms Conditions - Tivo - SaaS App HTML Landing Page Template</title>
-    
+    <title>Terms Conditions - Shopables</title>
+
     <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
-	
-	<!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
-</head>
-<body data-spy="scroll" data-target=".fixed-top">
-    
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link href="css/swiper.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- Favicon  -->
+    <link rel="icon" href="../assets/images/favicon.png" />
+  </head>
+  <body data-spy="scroll" data-target=".fixed-top">
     <!-- Preloader -->
-	<div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
+    <div class="spinner-wrapper">
+      <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
     </div>
     <!-- end of preloader -->
-    
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-        <div class="container">
+      <div class="container">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
 
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"
+          ><img
+            class="img-responsive w-25 h-25"
+            src="https://shopables.co/assets/images/logo.png"
+            alt="alternative"
+        /></a>
 
-            <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> 
-            
-            <!-- Mobile Menu Toggle Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-awesome fas fa-bars"></span>
-                <span class="navbar-toggler-awesome fas fa-times"></span>
-            </button>
-            <!-- end of mobile menu toggle button -->
+        <!-- Mobile Menu Toggle Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarsExampleDefault"
+          aria-controls="navbarsExampleDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-awesome fas fa-bars"></span>
+          <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
 
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="index.html#header">HOME <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="index.html#features">FEATURES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="index.html#details">DETAILS</a>
-                    </li>
-
-                    <!-- Dropdown Menu -->          
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" href="index.html#video" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">VIDEO</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="article-details.html"><span class="item-text">ARTICLE DETAILS</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS CONDITIONS</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
-                        </div>
-                    </li>
-                    <!-- end of dropdown menu -->
-
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="index.html#pricing">PRICING</a>
-                    </li>
-                </ul>
-                <span class="nav-item">
-                    <a class="btn-outline-sm" href="log-in.html">LOG IN</a>
-                </span>
-            </div>
-        </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="index.html#header"
+                >HOME <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+          <span class="nav-item">
+            <a class="btn-outline-sm" href="log-in.html">LOG IN</a>
+          </span>
+        </div>
+      </div>
+      <!-- end of container -->
+    </nav>
+    <!-- end of navbar -->
     <!-- end of navigation -->
-
 
     <!-- Header -->
     <header id="header" class="ex-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Terms & Conditions</h1>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </header> <!-- end of ex-header -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Terms & Conditions</h1>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </header>
+    <!-- end of ex-header -->
     <!-- end of header -->
-
-
-    <!-- Breadcrumbs -->
-    <div class="ex-basic-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Terms & Conditions</span>
-                    </div> <!-- end of breadcrumbs -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of ex-basic-1 -->
-    <!-- end of breadcrumbs -->
-
 
     <!-- Terms Content -->
     <div class="ex-basic-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-container">
-                        <h3>Limitations Of Liability</h3>
-                        <p>Tivo also automatically collects and receives certain information from your computer or mobile device, including the activities you perform on our Website, the Platforms, and the Applications, the type of hardware and software you are using (for example, your operating system or browser), and information obtained from cookies. For example, each time you visit the Website or otherwise use the Services, we automatically collect your IP address, browser and device type, access times, the web page from which you came, the regions from which you navigate the web page, and the web page(s) you access (as applicable).</p>
-                        <p>When you first register for a Tivo account, and when you use the Services, we collect some <a class="blue" href="#your-link">Personal Information</a> about you such as:</p>
-                        <ul class="list-unstyled li-space-lg indent">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">The geographic area where you use your computer and mobile devices should be the same with the one on the receipt</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Your full name, username, and email address and other contact details must be provided using the dedicated form</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">A unique Tivo user ID (an alphanumeric string) which is assigned to you upon registration and session</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Other optional information as part of your account profile are not required and you should not mention them</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Your IP Address and, when applicable, timestamp related to your consent and confirmation of consent are mandatory</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Other information submitted by you or your organizational representatives via various methods is not taken into consideration</div>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                    
-                    <div class="text-container">
-                        <h3>Terms And Conditions</h3>
-                        <p>Under no circumstances shall Tivo be liable for any direct, indirect, special, incidental or consequential damages, including, but not limited to, loss of data or profit, arising out of the use, or the inability to use, the materials on this site, even if Tivo or an authorized representative has been advised of the possibility of such damages. If your use of materials from this site results in the need for servicing, repair or correction of equipment or data, you assume any costs thereof should only be provided by the user of the application.</p>
-                    </div> <!-- end of text-container -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-container">
+              Please read these Terms of Service (“Terms”, “Terms of Service”)
+              carefully before using the https://www.shopables.com website (the
+              “Service”) operated by Shopables (“us”, “we”, or “our”).
+              <br /><br />
+              Your access to and use of Shopables is conditional on your
+              acceptance of, and compliance with these Terms. These Terms apply
+              to all trial users, and paid for users and any others who access
+              or use Shopables. You warrant that you are at least 18-years-old
+              and you are legally capable of entering into binding contracts. If
+              you are under 18-years-old, you warrant that you have obtained
+              consent from your parent or guardian and they agree to be bound by
+              these Terms on your behalf.
+              <br /><br />
 
-                    <div class="text-container">
-                        <h3>License Types & Template Usage</h3>
-                        <p>All our templates inherit the GNU general public license from HTML. All .PSD & CSS files are packaged separately and are not licensed under the GPL 2.0. Instead, these files inherit Tivo Personal Use License. These files are given to all Clients on a personal use basis. You may not offer them, <a class="blue" href="#your-link">modified or unmodified</a>, for redistribution or resale of any kind. You can’t use one of our themes on a HTML domain. More on HTML Vs CSS, you can read here. You can use our templates do develop sites for your clients and also for a limited amount of personal projects.</p>
-                        <p>Services help our customers promote their products and services, marketing and advertising; engaging audiences; scheduling and publishing messages; and analyze the results are always measured better with a dedicated analytics tool.</p>
-                    </div> <!-- end of text-container -->
-
-                    <div class="text-container">
-                        <h3>Designer Membership And How It Applies</h3>
-                        <p>By using any of the Services, or submitting or collecting any Personal Information via the Services, you consent to the collection, transfer, storage disclosure, and use of your Personal Information in the manner set out in this Privacy Policy. If you do not consent to the use of your Personal Information in these ways, please stop using the Services if you don't whish to customize the template for your online project.</p>
-                    </div> <!-- end of text-container -->
-                    
-                    <div class="text-container last">
-                        <h3>Assets Used In The Live Preview Content</h3>
-                        <p>Tivo Landing Page uses tracking technology on the landing page, in the Applications, and in the Platforms, including mobile application identifiers and a unique Hootsuite user ID to help us recognize you across different Services, to monitor usage and web traffic routing for the Services, and to customize and improve the Services. By visiting Tivo or using the Services you agree to the use of cookies in your browser and HTML-based emails. Cookies are small text files placed on your device when you visit a <a class="blue" href="#your-link">web site</a> in order to track use of the site and to improve your user experience.</p>
-                        <a class="btn-outline-reg" href="index.html">BACK</a>
-                    </div> <!-- end of text-container -->
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of ex-basic -->
+              <strong
+                >By accessing or using Shopables, you agree to be bound by these
+                Terms. If you disagree with any part of the terms then you may
+                not access Shopables services.</strong
+              >
+              <br />
+              <br />
+              <b>Subscription</b>
+              <br />
+              <br />
+              1.1 If you wish to purchase a subscription plan made available
+              through the Service (“Purchase”), you will be asked to supply
+              certain information relevant to your Purchase including, a credit
+              card number and the expiration date of your credit card or your
+              Paypal account details. Shopables uses Paddle as its payment
+              gateway.
+              <br /><br />
+              1.2 You represent and warrant that: (i) you have the legal right
+              to use any credit card(s) or other payment method(s) in connection
+              with any Purchase; and that (ii) the information you supply to us
+              is true, correct and complete.
+              <br /><br />
+              1.3 By submitting such information, you grant us the right to
+              provide the information to Paddle for purposes of facilitating the
+              completion of Purchases.
+              <br /><br />
+              <strong>Paddle</strong>
+              <br /><br />
+              2.1 To process payments securely and efficiently, Shopables uses a
+              3rd party payment platform – Paddle. Shopables uses the Paddle’s
+              API to process credit card transactions for Shopables subscription
+              purchases.
+              <br /><br />
+              2.2 By using Shopables and agreeing to these Terms of Service, You
+              also agree to be bound by Paddle’s Terms of Service.
+              <br /><br />
+              2.3 You expressly understand and agree that all payments and
+              monetary transactions are handled by Paddle. You agree that
+              Shopables shall not be liable for any issues regarding financial
+              and monetary transactions between You and Paddle.
+              <br /><br />
+              2.4 Shopables is not liable for loss or damage from errant or
+              invalid transactions processed with Your Paddle account. This
+              includes transactions that were not processed due to a network
+              communication error, or any other reason. Where there is an issue,
+              Shopables customer support will work hard to rectify any issues.
+              But where there is no opportunity for Shopables to resolve issues
+              relating to your payment with Paddle, the issue will remain
+              between you and Paddle to resolve.
+              <br /><br />
+              2.5 You understand that Shopables uses the Paddle API to run the
+              Service and that the Paddle API is subject to change at any time
+              and such changes may adversely affect Shopables’s service. You
+              understand and agree to not hold Shopables liable for any adverse
+              effects (whether intentional or unintentional) on the part of
+              Paddle may cause to Your Paddle account, Your Shopables account,
+              or Your business.
+              <br /><br />
+              2.6 You must not process stolen credit cards, or unauthorized
+              credit cards through Paddle and/or Your Shopables account.
+              <br /><br />
+              <strong>Annual Subscription Cancellation</strong>
+              <br /><br />
+              3.1 If you purchase an annual subscription and subsequently cancel
+              an annual subscription before the year has finished, you will not
+              receive a pro-rata refund on the time remaining for your annual
+              subscription. You can only receive a refund if you cancel within
+              15 days of your subscription start date. When a subscription is
+              cancelled, the account will be operational until the subscription
+              period has finished.
+              <br /><br />
+              <strong>Unrenewed Subscriptions</strong>
+              <br /><br />
+              4.1 If a subscription package has been purchased, but payment
+              cancelled or payment details not updated, your account will be
+              suspended until such a time as a new subscription is activated. We
+              will not be liable to store your content past 6 months of your
+              account being suspended.
+              <strong>Cancellation</strong>
+              <br /><br />
+              You are solely responsible for properly canceling your Account. To
+              do so, go to your account - Account Deletion. Any cancellation of
+              your Account will result in the deactivation or deletion of your
+              Account or your access to your Account, and the forfeiture and
+              relinquishment of all Content in your Account. This information
+              cannot be recovered from Shopables once your account is canceled.
+              Please be aware that Shopables may for a time retain residual
+              information in our backup and/or archival copies of our database.
+              We will make reasonable commercial efforts to delete your
+              information as soon as possible after you communicate that
+              intention to us. Cancellations will take effect at the end of your
+              current service period. Upon the commencement of a new service
+              period, the Shopables will terminate without additional notice,
+              and you will not be charged for any subsequent service periods.
+              You will not be provided any refunds for unused time on your
+              service period.
+              <br /><br />
+              <strong>Modifications to the Shopables Site and Prices</strong>
+              <br /><br />
+              Shopables reserves the right at any time and from time to time to
+              modify or discontinue, temporarily or permanently, the Shopables
+              Site (or any part thereof) with or without notice.
+              <br /><br />
+              Prices of all Shopables plans, including but not limited to
+              monthly subscription plan fees to the Shopables Site, are subject
+              to change.
+              <br /><br />
+              Shopables shall not be liable to you or to any third party for any
+              modification, price change, suspension or discontinuance of the
+              Shopables Services.
+              <br /><br />
+              We reserve the right, in our sole discretion, to change, modify,
+              add to, supplement or delete any portion of these Terms of Service
+              at any time, effective with or without prior notice; provided,
+              however, that we will use reasonable efforts to provide you with
+              notification of any material changes (as determined in our sole
+              discretion) by email.
+              <br /><br />
+              If any future changes to these Terms of Service are unacceptable
+              to you or cause you to no longer be in compliance, you must
+              immediately stop using the Shopables Service. Your continued use
+              of the Shopables Service following any revision to this Agreement
+              constitutes your complete acceptance of any and all such changes.
+              Any new features that augment or enhance the current Shopables
+              Service, including the release of new tools and resources, will be
+              subject to these Terms of Service.
+              <br /><br />
+              <strong>Indemnification</strong>
+              <br /><br />
+              You agree to indemnify and hold Shopables, its parents,
+              subsidiaries, affiliates, officers, partners and employees,
+              harmless from any claim or demand, including reasonable attorneys'
+              fees, made by any third party due to or arising out of your use of
+              the Services, use of your account by any third party, the
+              violation of the terms of use by you, or the infringement by you,
+              or any third party using your account, of any intellectual
+              property or other right of any person or entity.
+              <br /><br />
+              <strong>Disclaimer</strong> ‍ <br /><br />THE SERVICES, Shopables
+              SITE AND ITS CONTENTS ARE PROVIDED "AS IS" AND "AS AVAILABLE"
+              WITHOUT ANY WARRANTY OR REPRESENTATIONS OF ANY KIND, WHETHER
+              EXPRESSED OR IMPLIED. Shopables IS A DISTRIBUTOR AND NOT A
+              PUBLISHER OF THE CONTENT SUPPLIED BY THIRD PARTIES; AS SUCH,
+              Shopables EXERCISES NO EDITORIAL CONTROL OVER SUCH CONTENT AND
+              MAKES NO WARRANTY OR REPRESENTATION AS TO THE ACCURACY,
+              RELIABILITY OR CURRENCY OF ANY INFORMATION, CONTENT, SERVICE OR
+              MERCHANDISE PROVIDED THROUGH OR ACCESSIBLE VIA THE SITE. WITHOUT
+              LIMITING THE FOREGOING, Shopables SPECIFICALLY DISCLAIMS ALL
+              WARRANTIES AND REPRESENTATIONS AS THE PUBLISHER OF ANY CONTENT
+              TRANSMITTED ON OR IN CONNECTION WITH THE SITE OR ON SITES THAT MAY
+              APPEAR AS LINKS ON THE SITE, OR THE SERVICES, INCLUDING WITHOUT
+              LIMITATION ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+              PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD PARTY RIGHTS. NO
+              ORAL ADVICE OR WRITTEN INFORMATION GIVEN BY Shopables NOR ANY OF
+              ITS AFFILIATES, EMPLOYEES, OFFICERS, DIRECTORS, AGENTS, OR THE
+              LIKE SHALL CREATE A WARRANTY. PRICE AND AVAILABILITY INFORMATION
+              IS SUBJECT TO CHANGE WITHOUT NOTICE. <br /><br />
+              <strong>Publicity </strong>
+              <br /><br />
+              You grant Shopables the right to use your company name and logo as
+              a reference for marketing or promotional purposes on our website
+              and in other public or private communications, subject to your
+              standard trademark usage guidelines as provided to us from
+              time-to-time. If you don’t want to be listed, you may send an
+              email to hello@shopables.com declining to be used as a reference.
+            </div>
+          </div>
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of ex-basic -->
     <!-- end of terms content -->
 
-    
-    <!-- Breadcrumbs -->
-    <div class="ex-basic-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Terms & Conditions</span>
-                    </div> <!-- end of breadcrumbs -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of ex-basic-1 -->
-    <!-- end of breadcrumbs -->
-
-
     <!-- Footer -->
-    <svg class="ex-footer-frame" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 79"><defs><style>.cls-2{fill:#5f4def;}</style></defs><title>footer-frame</title><path class="cls-2" d="M0,72.427C143,12.138,255.5,4.577,328.644,7.943c147.721,6.8,183.881,60.242,320.83,53.737,143-6.793,167.826-68.128,293-60.9,109.095,6.3,115.68,54.364,225.251,57.319,113.58,3.064,138.8-47.711,251.189-41.8,104.012,5.474,109.713,50.4,197.369,46.572,89.549-3.91,124.375-52.563,227.622-50.155A338.646,338.646,0,0,1,1920,23.467V79.75H0V72.427Z" transform="translate(0 -0.188)"/></svg>
+    <!--   <svg class="footer-frame" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 79"><defs><style>.cls-2{fill:#51489e;}</style></defs><title>footer-frame</title><path class="cls-2" d="M0,72.427C143,12.138,255.5,4.577,328.644,7.943c147.721,6.8,183.881,60.242,320.83,53.737,143-6.793,167.826-68.128,293-60.9,109.095,6.3,115.68,54.364,225.251,57.319,113.58,3.064,138.8-47.711,251.189-41.8,104.012,5.474,109.713,50.4,197.369,46.572,89.549-3.91,124.375-52.563,227.622-50.155A338.646,338.646,0,0,1,1920,23.467V79.75H0V72.427Z" transform="translate(0 -0.188)"/></svg> -->
     <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="footer-col first">
-                        <h4>About Tivo</h4>
-                        <p class="p-small">We're passionate about offering some of the best business growth services for start more words</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-col first">
+              <h4>Shopales.co</h4>
+              <p class="p-small">
+                Shopables is a marketing tool that lets you create seamless
+                shopping experience through shoppable tags and micro popups for
+                your ecommerce store.
+              </p>
+            </div>
+          </div>
+          <!-- end of col -->
+          <div class="col-md-4">
+            <div class="footer-col middle">
+              <h4>Resources</h4>
+              <ul class="list-unstyled li-space-lg p-small">
+                <!-- <li class="media">
+                    <i class="fas fa-square"></i>
+                    <div class="media-body">
+                      <a class="white" href="https://shopables.co/blog">BLOG</a>
                     </div>
-                </div> <!-- end of col -->
-                <div class="col-md-4">
-                    <div class="footer-col middle">
-                        <h4>Important Links</h4>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Our business partners <a class="white" href="#your-link">startupguide.com</a></div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Read our <a class="white" href="terms-conditions.html">Terms & Conditions</a>, <a class="white" href="privacy-policy.html">Privacy Policy</a></div>
-                            </li>
-                        </ul>
-                    </div>
-                </div> <!-- end of col -->
-                <div class="col-md-4">
-                    <div class="footer-col last">
-                        <h4>Contact</h4>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li class="media">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <div class="media-body">22 Innovative, San Francisco, CA 94043, US</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-envelope"></i>
-                                <div class="media-body"><a class="white" href="mailto:contact@Tivo.com">contact@Tivo.com</a> <i class="fas fa-globe"></i><a class="white" href="#your-link">www.Tivo.com</a></div>
-                            </li>
-                        </ul>
-                    </div> 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
-    <!-- end of footer -->
+                  </li> -->
+                <li class="media">
+                  <i class="fas fa-square"></i>
+                  <div class="media-body">
+                    <a class="white" href="privacy-policy.html"
+                      >PRIVACY POLICY</a
+                    >
+                  </div>
+                </li>
+                <li class="media">
+                  <i class="fas fa-square"></i>
+                  <div class="media-body">
+                    <a class="white" href="terms-conditions.html">TERMS</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of col -->
+          <div class="col-md-4">
+            <div class="footer-col last">
+              <h4>Contact</h4>
+              <div class="form p-0">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="icon-container text-white text-left">
+                        <span class="fa-stack">
+                          <a href="https://www.facebook.com/shopables/">
+                            <i class="fas fa-circle fa-stack-2x text-dark"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                          </a>
+                        </span>
 
+                        <span class="fa-stack">
+                          <a href="https://www.linkedin.com/company/shopables/">
+                            <i class="fas fa-circle fa-stack-2x text-dark"></i>
+                            <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                          </a>
+                        </span>
+                      </div>
+                      <!-- end of col -->
+                    </div>
+                    <!-- end of col -->
+                  </div>
+                  <!-- end of row -->
+                </div>
+                <!-- end of container -->
+              </div>
+            </div>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of footer -->
+    <!-- end of footer -->
 
     <!-- Copyright -->
     <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Template by Inovatik</a></p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="p-small">
+              Copyright © 2020
+              <a href="https://growthhopper.com">A Product Of GrowthHopper</a>
+            </p>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- enf of row -->
+      </div>
+      <!-- end of container -->
+    </div>
     <!-- end of copyright -->
-    
-    	
+    <!-- end of copyright -->
+
     <!-- Scripts -->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
-</body>
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script>
+    <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script>
+    <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script>
+    <!-- Custom scripts -->
+  </body>
 </html>
