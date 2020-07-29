@@ -3,7 +3,49 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shopables</title>
+
+    <!-- Primary Meta Tags -->
+    <title>Shopables — Increase your e-commerce micro conversions.</title>
+    <meta
+      name="title"
+      content="Shopables — Increase your e-commerce micro conversions."
+    />
+    <meta
+      name="description"
+      content="Unlock your ecommerce growth through our shoppable tags, nudges and micro popups — everything done from your website. It will help you increase CTRs on your products."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta
+      property="og:title"
+      content="Shopables — Increase your e-commerce micro conversions."
+    />
+    <meta
+      property="og:description"
+      content="Unlock your ecommerce growth through our shoppable tags, nudges and micro popups — everything done from your website. It will help you increase CTRs on your products."
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta
+      property="twitter:title"
+      content="Shopables — Increase your e-commerce micro conversions."
+    />
+    <meta
+      property="twitter:description"
+      content="Unlock your ecommerce growth through our shoppable tags, nudges and micro popups — everything done from your website. It will help you increase CTRs on your products."
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
     <link rel='icon' href='assets/images/favicon.png' type='image/x-icon'/ >
     <link
       rel="stylesheet"
@@ -456,20 +498,20 @@
         return Math.floor(Math.random() * Math.floor(max));
       }
       if (getRandomInt(2) === 0) {
-        window.location.replace("https://shopables.co/landing");
+        window.location.replace('https://shopables.co/landing');
       }
     </script>
     <script type="text/javascript">
       $(document).ready(function () {
-        $(".slides").slick({
+        $('.slides').slick({
           infinite: false,
           arrows: false,
           dots: true,
         });
       });
 
-      $(".slides").on("swipe", function (event, slick, direction) {
-        var currentSlide = $(".slides").slick("slickCurrentSlide");
+      $('.slides').on('swipe', function (event, slick, direction) {
+        var currentSlide = $('.slides').slick('slickCurrentSlide');
       });
 
       window.onload = function () {
@@ -477,32 +519,32 @@
       };
 
       function webInit() {
-        $(".tag").each((k, v) => {
-          var top = v.getAttribute("data-top");
-          var left = v.getAttribute("data-left");
+        $('.tag').each((k, v) => {
+          var top = v.getAttribute('data-top');
+          var left = v.getAttribute('data-left');
           var topPos = top * window.innerHeight;
           var leftPos = left * window.innerWidth;
-          v.style.cssText = "top: " + topPos + "px; left: " + leftPos + "px;";
+          v.style.cssText = 'top: ' + topPos + 'px; left: ' + leftPos + 'px;';
         });
-        $(".pulse-box").each((k, v) => {
-          var top = v.getAttribute("data-top");
-          var left = v.getAttribute("data-left");
+        $('.pulse-box').each((k, v) => {
+          var top = v.getAttribute('data-top');
+          var left = v.getAttribute('data-left');
           var topPos = top * window.innerHeight;
           var leftPos = left * window.innerWidth;
-          v.style.cssText = "top: " + topPos + "px; left: " + leftPos + "px;";
+          v.style.cssText = 'top: ' + topPos + 'px; left: ' + leftPos + 'px;';
         });
-        $(".tag").css("opacity", 1);
-        $(".pulse-box").css("opacity", 1);
+        $('.tag').css('opacity', 1);
+        $('.pulse-box').css('opacity', 1);
       }
 
       window.onresize = function () {
         webInit();
       };
 
-      $(".pulse-box").on("mouseenter", function (e) {
-        const id = e.target.parentNode.getAttribute("data-id");
-        $(".tag").css("display", "none");
-        $('[data-tag="' + id + '"]').css("display", "flex");
+      $('.pulse-box').on('mouseenter', function (e) {
+        const id = e.target.parentNode.getAttribute('data-id');
+        $('.tag').css('display', 'none');
+        $('[data-tag="' + id + '"]').css('display', 'flex');
       });
     </script>
   </body>
