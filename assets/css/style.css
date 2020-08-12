@@ -17,9 +17,10 @@ body div {
   height: 100%;
   font-family: futura;
 }
-html,
+1 html,
 body {
   background: #fff;
+  overflow: hidden;
 }
 .shopable_logo {
   position: absolute;
@@ -42,13 +43,13 @@ section {
   height: 100%;
 }
 #first {
-  background: url('../images/backdrops/min/orange.png');
+  background: url("../images/backdrops/min/orange.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #first_model {
-  background: url('../images/models/min/model-first-page.png');
+  background: url("../images/models/min/model-first-page.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,19 +60,19 @@ section {
   /* left: 200px;
   opacity: 0; */
   transition: opacity 0.5s;
-  background: url('../images/circles/min/circle-first.png');
+  background: url("../images/circles/min/circle-first.png");
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: contain;
 }
 #second {
-  background: url('../images/backdrops/min/blue.png');
+  background: url("../images/backdrops/min/blue.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #second_model {
-  background: url('../images/models/min/model-second-page.png');
+  background: url("../images/models/min/model-second-page.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,19 +80,19 @@ section {
 #second_circle {
   position: absolute;
   top: 0;
-  background: url('../images/circles/min/circle-second.png');
+  background: url("../images/circles/min/circle-second.png");
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: contain;
 }
 #third {
-  background: url('../images/backdrops/min/grey.png');
+  background: url("../images/backdrops/min/grey.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #third_model {
-  background: url('../images/models/min/model-third-page.png');
+  background: url("../images/models/min/model-third-page.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,19 +101,19 @@ section {
   position: absolute;
   top: 0;
   right: -60px;
-  background: url('../images/circles/min/circle-third.png');
+  background: url("../images/circles/min/circle-third.png");
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: contain;
 }
 #forth {
-  background: url('../images/backdrops/min/yellow.png');
+  background: url("../images/backdrops/min/yellow.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #forth_model {
-  background: url('../images/models/min/model-forth-page-copy.png');
+  background: url("../images/models/min/model-forth-page-copy.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,7 +121,7 @@ section {
 #forth_circle {
   position: absolute;
   top: 0;
-  background: url('../images/circles/min/circle-forth.png');
+  background: url("../images/circles/min/circle-forth.png");
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -213,7 +214,7 @@ section {
 }
 .pulse-css:before,
 .pulse-css:after {
-  content: '';
+  content: "";
   width: 20px;
   height: 20px;
   border-radius: 25px;
@@ -288,7 +289,7 @@ nav > ul > li > a:hover {
 
 /* PRICING */
 .pricing {
-  background: url('../images/thirdpage-min.jpg');
+  background: url("../images/thirdpage-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
