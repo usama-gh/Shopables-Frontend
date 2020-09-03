@@ -74,12 +74,54 @@
     <link href="css/swiper.css" rel="stylesheet" />
     <link href="css/magnific-popup.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Open+Sans"
+    />
 
     <!-- Favicon  -->
     <link rel="icon" href="../assets/images/favicon.png" />
     <style>
       .progress-bar {
         background-color: #51489e;
+      }
+      .google-btn {
+        width: 184px;
+        height: 42px;
+        background-color: #4285f4;
+        border-radius: 2px;
+        box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+      }
+      .google-btn .google-icon-wrapper {
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 1px;
+        width: 40px;
+        height: 40px;
+        border-radius: 2px;
+        background-color: #fff;
+      }
+      .google-btn .google-icon {
+        position: absolute;
+        margin-top: 11px;
+        margin-left: 11px;
+        width: 18px;
+        height: 18px;
+      }
+      .google-btn .btn-text {
+        float: right;
+        margin: 11px 11px 0 0;
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        font-family: "Roboto";
+      }
+      .google-btn:hover {
+        box-shadow: 0 0 6px #4285f4;
+      }
+      .google-btn:active {
+        background: #1669f2;
       }
     </style>
     <script>
@@ -207,7 +249,7 @@
       ><img
         height="1"
         width="1"
-        style="display: none;"
+        style="display: none"
         src="https://www.facebook.com/tr?id=773915216696020&ev=PageView&noscript=1"
     /></noscript>
 
@@ -260,7 +302,7 @@
         <!-- Image Logo -->
         <a class="navbar-brand" href="https://shopables.co"
           ><img
-            style="width: 2.7rem;"
+            style="width: 2.7rem"
             src="https://shopables.co/assets/images/logo.png"
             alt="alternative"
         /></a>
@@ -341,6 +383,28 @@
                   class="btn-solid-lg page-scroll"
                   href="https://shopables.co/signup/"
                   >SIGN UP</a
+                >
+                <a
+                  class="btn-solid-lg page-scroll"
+                  href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay://https/shopables.co?id=auth579565&amp;response_type=permission%20id_token&amp;scope=email%20profile%20openid&amp;openid.realm&amp;client_id=586914970260-0os9ijl10joet7vk9oq8ok5at84g7l61.apps.googleusercontent.com&amp;ss_domain=https://shopables.co&amp;prompt&amp;fetch_basic_profile=true&amp;gsiwebsdk=2&amp;flowName=GeneralOAuthFlow"
+                  style="padding-left: 60px; padding-right: 30px"
+                  ><div
+                    class="google-icon-wrapper"
+                    style="
+                      position: absolute;
+                      top: 277px;
+                      margin-top: 2px;
+                      left: 204px;
+                      width: 20px;
+                      border-radius: 2px;
+                    "
+                  >
+                    <img
+                      class="google-icon"
+                      src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                    />
+                  </div>
+                  Login With Google</a
                 >
               </div>
               <!-- end of text-container -->
@@ -790,7 +854,7 @@
 
     <!-- Details Lightboxes -->
 
-    <div class="basic-1 text-white" style="background: #51489e;">
+    <div class="basic-1 text-white" style="background: #51489e">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 my-auto">
@@ -1146,14 +1210,12 @@
           <div class="col-12">
             <div class="card w-100 m-0">
               <div class="card-body">
-                <h1 style="position: absolute; top: -30px; right: 20px;">
-                  <span class="badge badge-danger" style="background: #51489e;"
+                <h1 style="position: absolute; top: -30px; right: 20px">
+                  <span class="badge badge-danger" style="background: #51489e"
                     >Limited Time Offer!</span
                   >
                 </h1>
-                <div class="display-3 card-title">
-                  Life Time Deal Offer!
-                </div>
+                <div class="display-3 card-title">Life Time Deal Offer!</div>
                 <div class="price">
                   <span class="currency">$</span><span class="value">139</span>
                   <small class="text-dark">ONE TIME</small>
@@ -1163,14 +1225,14 @@
                   Unlimited Views &nbsp; &nbsp; Upto 3 Websites
                 </div>
                 <div class="mx-5 px-5 py-3">
-                  <div style="height: 25px;" class="mx-5 progress">
+                  <div style="height: 25px" class="mx-5 progress">
                     <div
                       class="progress-bar progress-bar-success"
                       role="progressbar"
                       aria-valuenow="40"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      style="width: 90%;"
+                      style="width: 90%"
                     >
                       9 Spots Left
                     </div>
@@ -1182,6 +1244,28 @@
                     class="btn-solid-reg page-scroll"
                     href="https://shopables.co/signup/"
                     >SIGN UP</a
+                  >
+                  <a
+                    class="btn-solid-lg page-scroll"
+                    href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay://https/shopables.co?id=auth579565&amp;response_type=permission%20id_token&amp;scope=email%20profile%20openid&amp;openid.realm&amp;client_id=586914970260-0os9ijl10joet7vk9oq8ok5at84g7l61.apps.googleusercontent.com&amp;ss_domain=https://shopables.co&amp;prompt&amp;fetch_basic_profile=true&amp;gsiwebsdk=2&amp;flowName=GeneralOAuthFlow"
+                    style="padding: 1.1875rem 2.125rem 1.1875rem 3.125rem"
+                    ><div
+                      class="google-icon-wrapper"
+                      style="
+                        position: absolute;
+                        top: 277px;
+                        margin-top: 4px;
+                        right: 550px;
+                        width: 20px;
+                        border-radius: 2px;
+                      "
+                    >
+                      <img
+                        class="google-icon"
+                        src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                      />
+                    </div>
+                    Login With Google</a
                   >
                 </div>
               </div>
