@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="assets/css/style.css?v=123" />
     <style>
       .faqs {
-        background: url("assets/images/backdrops/min/glasses.png");
+        background: url('assets/images/backdrops/min/glasses.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
       }
       .faqs_circle {
-        background: url("assets/images/circles/min/circle-about.png");
+        background: url('assets/images/circles/min/circle-about.png');
         background-position: 100% 100%;
         background-repeat: no-repeat;
         background-size: contain;
@@ -160,15 +160,15 @@
               k = b.location,
               f = k.hash;
             d = function (a, b) {
-              return (m = a.match(RegExp(b + "=([^&]*)"))) ? m[1] : null;
+              return (m = a.match(RegExp(b + '=([^&]*)'))) ? m[1] : null;
             };
             f &&
-              d(f, "state") &&
-              ((j = JSON.parse(decodeURIComponent(d(f, "state")))),
-              "mpeditor" === j.action &&
-                (b.sessionStorage.setItem("_mpcehash", f),
+              d(f, 'state') &&
+              ((j = JSON.parse(decodeURIComponent(d(f, 'state')))),
+              'mpeditor' === j.action &&
+                (b.sessionStorage.setItem('_mpcehash', f),
                 history.replaceState(
-                  j.desiredHash || "",
+                  j.desiredHash || '',
                   c.title,
                   k.pathname + k.search
                 )));
@@ -178,29 +178,29 @@
           a._i = [];
           a.init = function (b, d, g) {
             function c(b, i) {
-              var a = i.split(".");
+              var a = i.split('.');
               2 == a.length && ((b = b[a[0]]), (i = a[1]));
               b[i] = function () {
                 b.push([i].concat(Array.prototype.slice.call(arguments, 0)));
               };
             }
             var e = a;
-            "undefined" !== typeof g ? (e = a[g] = []) : (g = "mixpanel");
+            'undefined' !== typeof g ? (e = a[g] = []) : (g = 'mixpanel');
             e.people = e.people || [];
             e.toString = function (b) {
-              var a = "mixpanel";
-              "mixpanel" !== g && (a += "." + g);
-              b || (a += " (stub)");
+              var a = 'mixpanel';
+              'mixpanel' !== g && (a += '.' + g);
+              b || (a += ' (stub)');
               return a;
             };
             e.people.toString = function () {
-              return e.toString(1) + ".people (stub)";
+              return e.toString(1) + '.people (stub)';
             };
-            l = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(
-              " "
+            l = 'disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove'.split(
+              ' '
             );
             for (h = 0; h < l.length; h++) c(e, l[h]);
-            var f = "set set_once union unset remove delete".split(" ");
+            var f = 'set set_once union unset remove delete'.split(' ');
             e.get_group = function () {
               function a(c) {
                 b[c] = function () {
@@ -211,7 +211,7 @@
               }
               for (
                 var b = {},
-                  d = ["get_group"].concat(
+                  d = ['get_group'].concat(
                     Array.prototype.slice.call(arguments, 0)
                   ),
                   c = 0;
@@ -224,21 +224,21 @@
             a._i.push([b, d, g]);
           };
           a.__SV = 1.2;
-          b = c.createElement("script");
-          b.type = "text/javascript";
+          b = c.createElement('script');
+          b.type = 'text/javascript';
           b.async = !0;
           b.src =
-            "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL
+            'undefined' !== typeof MIXPANEL_CUSTOM_LIB_URL
               ? MIXPANEL_CUSTOM_LIB_URL
-              : "file:" === c.location.protocol &&
-                "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)
-              ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"
-              : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
-          d = c.getElementsByTagName("script")[0];
+              : 'file:' === c.location.protocol &&
+                '//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js'.match(/^\/\//)
+              ? 'https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js'
+              : '//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js';
+          d = c.getElementsByTagName('script')[0];
           d.parentNode.insertBefore(b, d);
         }
       })(document, window.mixpanel || []);
-      mixpanel.init("61715d947ee06b068f246b068d0643e6", {
+      mixpanel.init('61715d947ee06b068f246b068d0643e6', {
         batch_requests: true,
       });
     </script>
@@ -254,7 +254,7 @@
         if (!f._fbq) f._fbq = n;
         n.push = n;
         n.loaded = !0;
-        n.version = "2.0";
+        n.version = '2.0';
         n.queue = [];
         t = b.createElement(e);
         t.async = !0;
@@ -264,17 +264,17 @@
       })(
         window,
         document,
-        "script",
-        "https://connect.facebook.net/en_US/fbevents.js"
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js'
       );
-      fbq("init", "773915216696020");
-      fbq("track", "PageView");
+      fbq('init', '773915216696020');
+      fbq('track', 'PageView');
     </script>
     <noscript
       ><img
         height="1"
         width="1"
-        style="display: none;"
+        style="display: none"
         src="https://www.facebook.com/tr?id=773915216696020&ev=PageView&noscript=1"
     /></noscript>
 
@@ -287,56 +287,56 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "UA-130851366-1");
+      gtag('config', 'UA-130851366-1');
     </script>
 
     <script>
       (function (d, w, c) {
-        w.ChatraID = "859iHtS8ZNXf96uN9";
-        var s = d.createElement("script");
+        w.ChatraID = '859iHtS8ZNXf96uN9';
+        var s = d.createElement('script');
         w[c] =
           w[c] ||
           function () {
             (w[c].q = w[c].q || []).push(arguments);
           };
         s.async = true;
-        s.src = "https://call.chatra.io/chatra.js";
+        s.src = 'https://call.chatra.io/chatra.js';
         if (d.head) d.head.appendChild(s);
-      })(document, window, "Chatra");
+      })(document, window, 'Chatra');
     </script>
   </head>
   <body>
-    <nav style="margin-top: -20px;">
+    <nav style="margin-top: -20px">
       <ul>
         <li>
-          <a style="color: #000; border-color: #000;" href="demo">DEMO</a>
+          <a style="color: #000; border-color: #000" href="storefront">DEMO</a>
         </li>
         <li>
-          <a style="color: #000; border-color: #000;" href="pricing.html"
+          <a style="color: #000; border-color: #000" href="pricing.html"
             >PRICING</a
           >
         </li>
         <li>
-          <a style="color: #000; border-color: #000;" href="signup">SIGN UP</a>
+          <a style="color: #000; border-color: #000" href="signup">SIGN UP</a>
         </li>
       </ul>
     </nav>
-    <section style="position: absolute !important;" class="pricing">
+    <section style="position: absolute !important" class="pricing">
       <div
-        style="overflow: scroll !important;"
+        style="overflow: scroll !important"
         class="container-fluid bootstrap snippet"
       >
-        <div class="row content" style="justify-content: center;">
+        <div class="row content" style="justify-content: center">
           <div class="col-lg-10 col-lg-offset-1 mt-5 pt-3">
-            <div style="height: 250px;" class="mb-5 col-12 text-center">
+            <div style="height: 250px" class="mb-5 col-12 text-center">
               <div class="plan">
                 <h2 class="bronze-text">Life Time Deal</h2>
                 <p class="bronze-text price">$139</p>
                 <p class="yearly">ONE TIME</p>
                 <a
-                  style="bottom: 0px !important;"
+                  style="bottom: 0px !important"
                   class="m-0 btn btn-primary btn-pricing"
                   href="/login"
                   >Order Now</a
@@ -344,7 +344,7 @@
               </div>
             </div>
 
-            <div style="float: left;" class="col-sm-4 text-center">
+            <div style="float: left" class="col-sm-4 text-center">
               <div class="plan">
                 <h2 class="bronze-text">Basic</h2>
                 <p class="bronze-text price">$12</p>
@@ -359,7 +359,7 @@
               </div>
             </div>
 
-            <div style="float: left;" class="col-sm-4 text-center">
+            <div style="float: left" class="col-sm-4 text-center">
               <div class="plan featured">
                 <h2>Premium</h2>
                 <p class="price">$24</p>
@@ -373,7 +373,7 @@
                 <p>UTM Parameters</p>
                 <p>Customizations</p>
                 <a
-                  style="bottom: 0px;"
+                  style="bottom: 0px"
                   class="btn btn-primary btn-pricing"
                   href="/login"
                   >Order Now</a
@@ -381,7 +381,7 @@
               </div>
             </div>
 
-            <div style="float: left;" class="col-sm-4 text-center">
+            <div style="float: left" class="col-sm-4 text-center">
               <div class="plan">
                 <h2 class="gold-text">Enterprise</h2>
                 <p class="gold-text price">$399</p>
@@ -395,7 +395,7 @@
                 <p>UTM Parameters</p>
                 <p>Customizations</p>
                 <a
-                  style="bottom: 0px;"
+                  style="bottom: 0px"
                   class="btn btn-primary btn-pricing"
                   href="/login"
                   >Order Now</a
