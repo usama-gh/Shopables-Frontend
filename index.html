@@ -1,705 +1,350 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="en">
 
-    <!-- Primary Meta Tags -->
-    <title>Shopables — Increase your e-commerce micro conversions.</title>
-    <meta
-      name="title"
-      content="Shopables — Increase your e-commerce micro conversions."
-    />
-    <meta
-      name="description"
-      content="Unlock your ecommerce growth through our shoppable tags, nudges and micro popups — everything done from your website. It will help you increase CTRs on your products."
-    />
-
-    <!-- Open Graph / Facebook -->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shopables - Elevate your e-commerce</title>
+    <!-- Meta Share -->
+    <meta property="og:title" content="Start.ly — Agency One Page Parallax Template" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://shopables.co/" />
-    <meta
-      property="og:title"
-      content="Shopables — Increase your e-commerce micro conversions."
-    />
-    <meta
-      property="og:description"
-      content="Unlock your ecommerce growth through our shoppable tags, nudges and micro popups — everything done from your website. It will help you increase CTRs on your products."
-    />
-    <meta property="og:image" content="assets/images/shopables_meta.png" />
+    <meta property="og:image" content="images/screen.jpg" />
+    <!-- CSS Files -->
+    <link href="https://fonts.googleapis.com/css?family=Product+Sans:300,400,700" rel="stylesheet">
+    <!-- build:css css/app.min.css -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/global/bootstrap.min.css">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/global/plugins/icon-font.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- /build -->
+</head>
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://shopables.co/" />
-    <meta
-      property="twitter:title"
-      content="Shopables — Increase your e-commerce micro conversions."
-    />
-    <meta
-      property="twitter:description"
-      content="Unlock your ecommerce growth through our shoppable tags, nudges and micro popups — everything done from your website. It will help you increase CTRs on your products."
-    />
-    <meta property="twitter:image" content="assets/images/shopables_meta.png" />
-    <link rel='icon' href='assets/images/favicon.png' type='image/x-icon'/ >
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css?v=1232" />
-    <link rel="stylesheet" href="assets/css/tablet.css" />
+<body class="overflow-hidden">
+    <header id="home">
 
-    <script>
-      (function (c, a) {
-        if (!a.__SV) {
-          var b = window;
-          try {
-            var d,
-              m,
-              j,
-              k = b.location,
-              f = k.hash;
-            d = function (a, b) {
-              return (m = a.match(RegExp(b + '=([^&]*)'))) ? m[1] : null;
-            };
-            f &&
-              d(f, 'state') &&
-              ((j = JSON.parse(decodeURIComponent(d(f, 'state')))),
-              'mpeditor' === j.action &&
-                (b.sessionStorage.setItem('_mpcehash', f),
-                history.replaceState(
-                  j.desiredHash || '',
-                  c.title,
-                  k.pathname + k.search
-                )));
-          } catch (n) {}
-          var l, h;
-          window.mixpanel = a;
-          a._i = [];
-          a.init = function (b, d, g) {
-            function c(b, i) {
-              var a = i.split('.');
-              2 == a.length && ((b = b[a[0]]), (i = a[1]));
-              b[i] = function () {
-                b.push([i].concat(Array.prototype.slice.call(arguments, 0)));
-              };
-            }
-            var e = a;
-            'undefined' !== typeof g ? (e = a[g] = []) : (g = 'mixpanel');
-            e.people = e.people || [];
-            e.toString = function (b) {
-              var a = 'mixpanel';
-              'mixpanel' !== g && (a += '.' + g);
-              b || (a += ' (stub)');
-              return a;
-            };
-            e.people.toString = function () {
-              return e.toString(1) + '.people (stub)';
-            };
-            l = 'disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove'.split(
-              ' '
-            );
-            for (h = 0; h < l.length; h++) c(e, l[h]);
-            var f = 'set set_once union unset remove delete'.split(' ');
-            e.get_group = function () {
-              function a(c) {
-                b[c] = function () {
-                  call2_args = arguments;
-                  call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
-                  e.push([d, call2]);
-                };
-              }
-              for (
-                var b = {},
-                  d = ['get_group'].concat(
-                    Array.prototype.slice.call(arguments, 0)
-                  ),
-                  c = 0;
-                c < f.length;
-                c++
-              )
-                a(f[c]);
-              return b;
-            };
-            a._i.push([b, d, g]);
-          };
-          a.__SV = 1.2;
-          b = c.createElement('script');
-          b.type = 'text/javascript';
-          b.async = !0;
-          b.src =
-            'undefined' !== typeof MIXPANEL_CUSTOM_LIB_URL
-              ? MIXPANEL_CUSTOM_LIB_URL
-              : 'file:' === c.location.protocol &&
-                '//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js'.match(/^\/\//)
-              ? 'https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js'
-              : '//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js';
-          d = c.getElementsByTagName('script')[0];
-          d.parentNode.insertBefore(b, d);
-        }
-      })(document, window.mixpanel || []);
-      mixpanel.init('61715d947ee06b068f246b068d0643e6', {
-        batch_requests: true,
-      });
-    </script>
+        <!-- navbar -->
+    
+        <!-- // end navbar -->
 
-    <script>
-      !(function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-          n.callMethod
-            ? n.callMethod.apply(n, arguments)
-            : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = '2.0';
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-      })(
-        window,
-        document,
-        'script',
-        'https://connect.facebook.net/en_US/fbevents.js'
-      );
-      fbq('init', '773915216696020');
-    </script>
-    <script>
-      fbq('track', 'PageView');
-    </script>
-    <noscript
-      ><img
-        height="1"
-        width="1"
-        style="display: none"
-        src="https://www.facebook.com/tr?id=773915216696020&ev=PageView&noscript=1"
-    /></noscript>
 
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-130851366-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
+        <!-- hero -->
+        <section class="jumbotron-two wall" >
 
-      gtag('config', 'UA-130851366-1');
-    </script>
+        	      <div class="centered-box">
+            	<div class="py-auto my-auto">
+            	  <div class="text-box">
+  <h1 class="my-text display-2">Elevate your <span class="gradient-mask">e-commerce!</span></h1>
+</div>        
 
-    <script>
-      (function (d, w, c) {
-        w.ChatraID = '859iHtS8ZNXf96uN9';
-        var s = d.createElement('script');
-        w[c] =
-          w[c] ||
-          function () {
-            (w[c].q = w[c].q || []).push(arguments);
-          };
-        s.async = true;
-        s.src = 'https://call.chatra.io/chatra.js';
-        if (d.head) d.head.appendChild(s);
-      })(document, window, 'Chatra');
-    </script>
-  </head>
-  <body>
-    <div class="shopable_logo">
-      <img width="70px" src="assets/images/logo.png" alt="" />
-    </div>
-    <nav>
-      <ul>
-        <li><a href="./demo/index.html">DEMO</a></li>
-        <li><a href="pricing.html">PRICING</a></li>
-        <li>
-          <a href="login">TRY IT FREE</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="mdview slides">
-      <section id="first">
-        <div id="first_model">
-          <div
-            data-id="1"
-            data-top="0.15193370165745856"
-            data-left="0.22916666666666666"
-            class="pulse-box first_page_tag"
-          >
-            <div class="pulse-css pulse-white"></div>
-          </div>
-          <div
-            data-id="2"
-            data-top="0.5248618784530387"
-            data-left="0.4236111111111111"
-            class="pulse-box first_page_tag"
-          >
-            <div class="pulse-css pulse-white"></div>
-          </div>
-          <div
-            data-id="3"
-            data-top="0.8011049723756906"
-            data-left="0.2152777777777778"
-            class="pulse-box first_page_tag"
-          >
-            <div class="pulse-css pulse-white"></div>
-          </div>
+  <div class="text-box2">
+  <h3 class="my-text2">Shoppable e-commerce experience + 1-click checkout!</h3>
+</div>                   
 
-          <span
-            data-tag="3"
-            data-top="0.48342541436464087"
-            data-left="0.06944444444444445"
-            class="tag first_page_tag"
-          >
-            <span class="heading">Top</span>
-            <span class="price">$60</span>
-            <button>BUY NOW!</button>
-          </span>
 
-          <span
-            data-tag="1"
-            data-top="0.13812154696132597"
-            data-left="0.034722222222222224"
-            class="tag first_page_tag"
-          >
-            <span class="heading">Scarf</span>
-            <span class="price">$60</span>
-            <button>BUY NOW!</button>
-          </span>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+                         <a href="#signup" class="btn align-middle btn-primary btn-lg my-2 my-lg-0">Get Started</a>
 
-          <span
-            data-tag="2"
-            data-top="0.48342541436464087"
-            data-left="0.5555555555555556"
-            class="tag first_page_tag"
-          >
-            <span class="heading">Earrings</span>
-            <span class="price">$30</span>
-            <button>BUY NOW!</button>
-          </span>
+                </div>         
+            </div>
+
+
+        	    <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h3 >Shopables</h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="site-nav">
+                    <ul class="navbar-nav text-sm-left ml-auto">
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Products →</a>
+                        </li>
+
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">1-click checkout</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Shoppable Tags</a>
+                        </li>
+
+
+                      
+                        <li class="nav-item text-center">
+                            <a href="#signup" class="btn align-middle btn-primary my-2 my-lg-0">Contact Us</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+
+
+      
+
+              
+
+        </section>
+        <!-- // end hero -->
+
+
+ <!--      <div class="bg-shape"></div> 
+   <div class="bg-circle"></div>  -->
+    <div class="bg-circle-two"></div>
+     <div class="bg-circle-three" ></div>
+
+    </header>
+ 
+    <!-- // end #services.section -->
+    
+<div class="section h-100 bg-dark" id="features">
+
+        <div class="container">
+              <h2 class="display-3 text-center">Our Products</h2>
         </div>
-        <div id="first_circle"></div>
-        <div id="first_mobile_circle"></div>
-      </section>
-      <section id="second">
-        <div id="second_model">
-          <div
-            data-id="4"
-            data-top="0.22099447513812154"
-            data-left="0.09027777777777778"
-            class="pulse-box"
-          >
-            <div class="pulse-css"></div>
-          </div>
-          <div
-            data-id="5"
-            data-top="0.2900552486187845"
-            data-left="0.11805555555555555"
-            class="pulse-box"
-          >
-            <div class="pulse-css"></div>
-          </div>
-          <div
-            data-id="6"
-            data-top="0.4972375690607735"
-            data-left="0.3333333333333333"
-            class="pulse-box"
-          >
-            <div class="pulse-css"></div>
-          </div>
-          <div
-            data-id="7"
-            data-top="0.8149171270718232"
-            data-left="0.06944444444444445"
-            class="pulse-box"
-          >
-            <div class="pulse-css"></div>
-          </div>
-          <span
-            data-tag="4"
-            data-top="0.04143646408839779"
-            data-left="0.3891591382904795"
-            class="tag"
-          >
-            <span class="heading">Sun Glasses</span>
-            <span class="price">$40</span>
-            <button>BUY NOW!</button>
-          </span>
-          <span
-            data-tag="5"
-            data-top="0.23480662983425415"
-            data-left="0.5003474635163307"
-            class="tag"
-          >
-            <span class="heading">Sunblock</span>
-            <span class="price">$40</span>
-            <button>BUY NOW!</button>
-          </span>
-          <span
-            data-tag="6"
-            data-top="0.4558011049723757"
-            data-left="0.5003474635163307"
-            class="tag"
-          >
-            <span class="heading">Hat</span>
-            <span class="price">$30</span>
-            <button>BUY NOW!</button>
-          </span>
-          <span
-            data-tag="7"
-            data-top="0.6906077348066298"
-            data-left="0.4444444444444444"
-            class="tag"
-          >
-            <span class="heading">Bikini</span>
-            <span class="price">$60</span>
-            <button>BUY NOW!</button>
-          </span>
+
+  </div>
+    <!-- Features -->
+    <div class="section h-100" id="products">
+
+        <div class="container">
+         
+
+
+            <div class="row align-items-center mt-5">
+
+                <div class="col-sm-12">
+                    <div class="media">
+                        <div class="media-body">
+                            <div class="media-icon mb-3"> <i class="text-white pe-7s-graph1 pe-3x"></i> </div>
+                            <h2 class="display-3 mt-0">True 1-click checkout.</h2>
+                            <p class="lead">Increase your conversions & reduce cart abandonment by atleast 30% using our 1-click checkout Shopify app.<br>It allows only COD option right now because this is most preferred by customers.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12">
+                    <img src="images/screen.jpg" alt="image" class="img-fluid cast-shadow my-5">
+                </div>
+
+
+            </div>
+
+
+          
+
+
         </div>
-        <div id="second_circle"></div>
-        <div id="second_mobile_circle"></div>
-      </section>
-      <section id="third">
-        <div id="third_model">
-          <div
-            data-id="8"
-            data-top="0.31767955801104975"
-            data-left="0.2569444444444444"
-            class="pulse-box"
-          >
-            <div class="pulse-css pulse-white"></div>
-          </div>
-          <div
-            data-id="9"
-            data-top="0.511049723756906"
-            data-left="0.1597222222222222"
-            class="pulse-box"
-          >
-            <div class="pulse-css pulse-white"></div>
-          </div>
-          <div
-            data-id="10"
-            data-top="0.7044198895027625"
-            data-left="0.3333333333333333"
-            class="pulse-box"
-          >
-            <div class="pulse-css pulse-white"></div>
-          </div>
-          <div
-            data-id="11"
-            data-top="0.8011049723756906"
-            data-left="0.4027777777777778"
-            class="pulse-box"
-          >
-            <div class="pulse-css pulse-white"></div>
-          </div>
-          <span
-            data-tag="8"
-            data-top="0.27624309392265195"
-            data-left="0.034722222222222224"
-            class="tag"
-          >
-            <span class="heading">Shades</span>
-            <span class="price">$40</span>
-            <button>BUY NOW!</button>
-          </span>
-          <span
-            data-tag="9"
-            data-top="0.5524861878453039"
-            data-left="0.034722222222222224"
-            class="tag"
-          >
-            <span class="heading">T-shirt</span>
-            <span class="price">$40</span>
-            <button>BUY NOW!</button>
-          </span>
-          <span
-            data-tag="10"
-            data-top="0.4696132596685083"
-            data-left="0.45170257123002083"
-            class="tag"
-          >
-            <span class="heading">Smart Watch</span>
-            <span class="price">$30</span>
-            <button>BUY NOW!</button>
-          </span>
-          <span
-            data-tag="11"
-            data-top="0.7596685082872928"
-            data-left="0.5211952744961779"
-            class="tag"
-          >
-            <span class="heading">Bag</span>
-            <span class="price">$60</span>
-            <button>BUY NOW!</button>
-          </span>
-        </div>
-        <div id="third_circle"></div>
-        <div id="third_mobile_circle"></div>
-      </section>
-      <section id="forth">
-        <div id="forth_model">
-          <div
-            data-id="12"
-            data-top="0.511049723756906"
-            data-left="0.4444444444444444"
-            class="pulse-box"
-          >
-            <div class="pulse-css"></div>
-          </div>
-          <div
-            data-id="13"
-            data-top="0.7320441988950276"
-            data-left="0.5138888888888888"
-            class="pulse-box"
-          >
-            <div class="pulse-css"></div>
-          </div>
-          <div
-            data-id="14"
-            data-top="0.10359116022099447"
-            data-left="0.5763888888888888"
-            class="pulse-box"
-          >
-            <div class="pulse-css"></div>
-          </div>
-          <span
-            data-tag="14"
-            data-top="0.04143646408839779"
-            data-left="0.2361111111111111"
-            class="tag red_tag"
-          >
-            <span class="heading">Sunglasses</span>
-            <span class="price">$60</span>
-            <button>BUY NOW!</button>
-          </span>
-          <span
-            data-tag="12"
-            data-top="0.4558011049723757"
-            data-left="0.16666666666666666"
-            class="tag red_tag"
-          >
-            <span class="heading">Jacket</span>
-            <span class="price">$40</span>
-            <button>BUY NOW!</button>
-          </span>
-          <span
-            data-tag="13"
-            data-top="0.7044198895027625"
-            data-left="0.16666666666666666"
-            class="tag red_tag"
-          >
-            <span class="heading">Top</span>
-            <span class="price">$40</span>
-            <button>BUY NOW!</button>
-          </span>
-        </div>
-        <div id="forth_circle"></div>
-        <div id="forth_mobile_circle"></div>
-      </section>
+
+
+
     </div>
 
-    <!-- <footer class="footer">
-      <svg viewBox="0 0 120 28">
-        <defs>
-          <mask id="xxx">
-            <circle cx="7" cy="12" r="40" fill="#fff" />
-          </mask>
-
-          <filter id="goo">
-             <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
-             <feColorMatrix in="blur" mode="matrix" values="
-                  1 0 0 0 0
-                  0 1 0 0 0
-                  0 0 1 0 0
-                  0 0 0 13 -9" result="goo" />
-             <feBlend in="SourceGraphic" in2="goo" />
-           </filter>
-            <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
-         </defs>
-
-          <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use>
-          <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
-
-         <g class="gooeff">
-
-           <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
 
 
 
-       </svg>
-
-      <div class="container bottom_border">
-        <div class="row">
-          <div class=" col-sm-4 col-md col-sm-4  col-12 col">
-            <img width="70px" src="assets/images/logo.png" alt="" />
-            <h5 class="headin5_amrc col_white_amrc">Shopables Inc.</h5>
-
-            <p class="mb10">
-              Shopables is a marketing tool that lets you create seamless
-              shopping experience through shoppable tags and micro popups for
-              your ecommerce store.
-            </p>
-            <p>
-              <i class="fa fa-location-arrow"></i> 10 Street, Menlo Park, CA
-            </p>
-            <p><i class="fa fa-phone"></i> 232-323-322</p>
-            <p><i class="fa fa fa-envelope"></i> hello@shopables.co</p>
-          </div>
-
-          <div class=" col-sm-4 col-md  col-6 col">
-            <h5 class="headin5_amrc col_white_amrc pt2">Features</h5>
-
-            <ul class="footer_ul_amrc">
-              <li><a href="http://webenlance.com">One time installation</a></li>
-              <li><a href="http://webenlance.com">On-Page Editor</a></li>
-              <li><a href="http://webenlance.com">In-depth Analytics</a></li>
-              <li><a href="http://webenlance.com">Micro Optins</a></li>
-              <li><a href="http://webenlance.com">Customization</a></li>
-            </ul>
-
-          </div>
-
-          <div class=" col-sm-4 col-md  col-6 col">
-            <h5 class="headin5_amrc col_white_amrc pt2">Resources</h5>
-
-            <ul class="footer_ul_amrc">
-              <li><a href="blog">Blog</a></li>
-              <li>
-                <a href="faqs">FAQs</a>
-              </li>
-              <li><a href="privacy-policy">Privacy Policy</a></li>
-              <li><a href="terms">Terms of Use</a></li>
-              <li><a href="gdpr-policy">GDPR</a></li>
-            </ul>
-
-          </div>
-
-          <div class=" col-sm-4 col-md  col-12 col">
-            <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
 
 
-            <ul class="footer_ul2_amrc">
-              <li>
-                <a href="#"
-                  ><i class="fab fa-twitter fleft padding-right"></i>
-                </a>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing...<a href="#"
-                    >https://www.lipsum.com/</a
-                  >
-                </p>
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="fab fa-twitter fleft padding-right"></i>
-                </a>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing...<a href="#"
-                    >https://www.lipsum.com/</a
-                  >
-                </p>
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="fab fa-twitter fleft padding-right"></i>
-                </a>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing...<a href="#"
-                    >https://www.lipsum.com/</a
-                  >
-                </p>
-              </li>
-            </ul>
 
-          </div>
+
+
+    <div class="section bg-dark">
+
+        <div class="container">
+           
+
+
+            <div class="row align-items-center mt-5">
+
+                <div class="col-sm-12">
+                    <div class="media">
+                        <div class="media-body">
+                            <div class="media-icon mb-3"> <i class="text-white pe-7s-graph1 pe-3x"></i> </div>
+                            <h2 class="display-3 mt-0">Shoppable Tags.</h2>
+                            <p class="lead">Increase your e-commerce click-through rates by using our Shoppable tags.<br>It creates attention you can use it 
+                            drive attention through micro copy, popups, highlighting product features etc.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12">
+                    <img src="images/screen.jpg" alt="image" class="img-fluid cast-shadow my-5">
+                </div>
+
+
+            </div>
+
+
+          
+
+
         </div>
-      </div>
-
-      <div class="container" style="margin-bottom: 200px;">
-        <ul class="foote_bottom_ul_amrc">
-          <li><a href="#">Home</a></li>
-          <li><a href="about">About</a></li>
-          <li><a href="pricing">Pricing</a></li>
-          <li><a href="blog">Blog</a></li>
-          <li><a href="contact">Contact</a></li>
-          <li><a href="privacy-policy">Privacy Policy</a></li>
-          <li><a href="terms">Terms</a></li>
-        </ul>
-
-        <p class="text-center">Copyright @2020 | Shopables</p>
 
 
-      </div>
-    </footer> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script>
-      // function getRandomInt(max) {
-      //   return Math.floor(Math.random() * Math.floor(max));
-      // }
-      // if (getRandomInt(2) === 0) {
-      //   window.location.replace('https://shopables.co/landing');
-      // }
-    </script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('.slides').slick({
-          infinite: false,
-          arrows: false,
-          dots: true,
-        });
-      });
 
-      $('.slides').on('swipe', function (event, slick, direction) {
-        var currentSlide = $('.slides').slick('slickCurrentSlide');
-      });
+    </div>
 
-      window.onload = function () {
-        webInit();
-      };
 
-      function webInit() {
-        $('.tag').each((k, v) => {
-          var top = v.getAttribute('data-top');
-          var left = v.getAttribute('data-left');
-          var topPos = top * window.innerHeight;
-          var leftPos = left * window.innerWidth;
-          v.style.cssText = 'top: ' + topPos + 'px; left: ' + leftPos + 'px;';
-        });
-        $('.pulse-box').each((k, v) => {
-          var top = v.getAttribute('data-top');
-          var left = v.getAttribute('data-left');
-          var topPos = top * window.innerHeight;
-          var leftPos = left * window.innerWidth;
-          v.style.cssText = 'top: ' + topPos + 'px; left: ' + leftPos + 'px;';
-        });
-        $('.tag').css('opacity', 1);
-        $('.pulse-box').css('opacity', 1);
-      }
 
-      window.onresize = function () {
-        webInit();
-      };
 
-      $('.pulse-box').on('mouseenter', function (e) {
-        const id = e.target.parentNode.getAttribute('data-id');
-        $('.tag').css('display', 'none');
-        $('[data-tag="' + id + '"]').css('display', 'flex');
-      });
-    </script>
-  </body>
+
+
+
+    <!-- features -->
+
+
+
+    <!-- // end features -->
+
+
+
+    <!-- Testimonials -->
+    <!-- <div class="section bg-dark">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>What our users say</h3>
+                <p>They love it. Read what our customers had to say!</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="embed-tweet-item">
+                        <blockquote class="twitter-tweet" data-cards="hidden" lang="en" data-width="550" data-link-color="#7642FF" data-align="center">
+                            <a href="https://twitter.com/kmin/status/943914224329347072"></a>
+                        </blockquote>
+                    </div> -->
+                    <!-- end .embed-tweet-item -->
+              <!--   </div> -->
+                <!-- end .col -->
+               <!--  <div class="col-md-4">
+                    <div class="embed-tweet-item">
+                        <blockquote class="twitter-tweet" data-cards="hidden" lang="en" data-width="550" data-link-color="#7642FF" data-align="center">
+                            <a href="https://twitter.com/halarewich/status/954224121784688640"></a>
+                        </blockquote>
+                    </div> -->
+                    <!-- end .embed-tweet-item -->
+                <!-- </div> -->
+                <!-- end .col -->
+               <!--  <div class="col-md-4">
+                    <div class="embed-tweet-item">
+                        <blockquote class="twitter-tweet" data-cards="hidden" lang="en" data-width="550" data-link-color="#7642FF" data-align="center">
+                            <a href="https://twitter.com/scottbelsky/status/921417663859052544"></a>
+                        </blockquote>
+                    </div> -->
+                    <!-- end .embed-tweet-item -->
+               <!--  </div> -->
+                <!-- end .col -->
+          <!--   </div> -->
+            <!-- end .row -->
+
+
+     <!--    </div>
+    </div> -->
+    <!-- // end Testimonials -->
+
+
+
+
+    <!-- Pricing -->
+    
+
+    <!-- // end Pricing -->
+
+    <!-- Signup -->
+    <div class="section" id="signup">
+        <div class="container text-center">
+        	<h3>So let's make this happen.</h3>
+          	 <h2 class="display-4 mt-0">Shopables <span class="text-dark">+</span><span contenteditable="true" style="
+    color: #e4e4e4;
+    border-bottom: 2px dashed #e4e4e4;
+"> Type your store name</span></h2>
+          	 <h3 class="mt-5">It's really going to happen!</h3>
+          	 <p class="lead">Let's get in touch</p>
+          	<div class="typeform-widget" data-url="https://form.typeform.com/to/tcTydWLR" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=tcTydWLR&utm_source=typeform.com-01D8JVT4C3CZ8TY4XEJMSMFEJ6-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="section mt-4" style="background: #000000;" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"> <img src="https://shopables.co/assets/images/logo.png" class="logo-dark" style="width: 60px;" alt="Start.ly Logo" />
+                    <p class="mt-3 ml-1 text-muted">Shopables </p>
+                  
+                    <!-- // end .lead -->
+                </div>
+                <!-- // end .col-sm-3 -->
+                <div class="col-sm-2">
+                    <ul class="list-unstyled footer-links ml-1">
+                        <li><a href="">1-click checkout</a></li>
+                        <li><a href="#about">Shoppable Tags</a></li>
+                    
+                        <li><a href="#signup">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- // end .col-sm-3 -->
+                <div class="col-sm-2">
+                    <ul class="list-unstyled footer-links ml-1">
+                        <li><a href="terms.html">Terms</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                    </ul>
+                </div>
+                <!-- // end .col-sm-3 -->
+                <div class="col-sm-2">
+                    <ul class="list-unstyled footer-links ml-1">
+                        <li><a href="https://facebook.com/shopables">Facebook</a></li>
+                        <li><a href="https://twitter.com/shopables">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/in/imusamakhalid?originalSubdomain=pk">Linkedin</a></li>
+                    </ul>
+                </div>
+                <!-- // end .col-sm-3 -->
+                <div class="col-sm-2">
+                    <a href="#home" class="btn btn-sm btn-outline-primary ml-1">Go to Top</a>
+                </div>
+                <!-- // end .col-sm-3 -->
+            </div>
+            <!-- // end .row -->
+            <div class=" text-center mt-4"> <small class="text-muted">Copyright ©
+                          <script type="text/javascript">
+                          document.write(new Date().getFullYear());
+                          </script>
+                          All rights reserved. Start.ly
+                      </small></div>
+        </div>
+        <!-- // end .container -->
+    </div>
+
+
+
+
+
+
+    <!-- // end #about.section -->
+    <!-- // end .agency -->
+    <!-- JS Files -->
+    <!-- build:js js/app.min.js -->
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/global/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/global/bootstrap.bundle.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/script.js"></script>
+    <!-- /build -->
+</body>
+
 </html>
