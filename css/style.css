@@ -1103,7 +1103,7 @@ a.title:hover img {
 .wall{
 
  
-  background: linear-gradient(#00000085,#00000030), url(../images/hello.jpg);
+  background: linear-gradient(#00000085,#00000030), url(../images/hello-min.JPG);
     height: 100vh;
       transition: background-size .9s ease-in-out;
 background-size: cover;
